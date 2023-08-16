@@ -1,0 +1,76 @@
+.foro-electromovilidad{
+  background-image: url('./bgForoElectromovilidad.webp');
+  background-size: cover; 
+  height: 100vh;
+}
+.foro-frase{
+  font-size: 20px;
+}
+.wrapper-main-foro{  
+  background: linear-gradient(to right, rgb(6, 1, 109), rgba(59, 160, 237, 0.3) );
+  color: white;
+  height: 100vh;
+}
+label{
+  font-weight: bold;
+}
+.foro-date{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(1,134,250,1) 51%);  
+  color: white;
+  display: flex;  
+  align-items: center;
+  width: fit-content;
+  font-size: 1.5em;
+  border-top-left-radius: 40px;  
+  border-bottom-left-radius: 40px;
+  margin-left: auto;  
+}
+.foro-date div{
+  padding: 20px 25px;  
+}
+.foro-date p{
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 0.5em;
+  margin: 0;
+  padding-right: 15px;
+}
+.foro-date p small{
+  font-size: 15px;
+}
+h1{
+  font-size: 3em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+.btn{
+  background-color: black;
+  color: white;
+}
+
+@media (width < 940px) {
+  .foro-electromovilidad{
+    height: 100%;
+  }
+  .wrapper-main-foro{
+    height: 100%;
+  }
+  h1{
+    font-size: 2em;
+  }
+  .foro-date{
+    width: 100%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    justify-content: center;
+  }
+  .foro-date p{
+    font-size: 25px;
+  }
+  .foro-date div{
+    padding: 20px 5px;
+  }
+}
