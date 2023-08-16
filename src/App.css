@@ -50,6 +50,16 @@ h1{
   background-color: black;
   color: white;
 }
+.Ticket {
+  color: white;
+  perspective: 1000px;
+  background-color:black;
+  border-radius: 20px;
+}
+.bg-ticket{
+  background: radial-gradient(75.53% 100.65% at 50% 145.96%,rgba(83, 71, 255, 0.5),rgba(87,205,255,0) 100%);
+  padding: 20px;
+}
 
 @media (width < 940px) {
   .foro-electromovilidad{

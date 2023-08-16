@@ -55,82 +55,69 @@ export function Register () {
     }
   }
   return (
-    <div className='foro-electromovilidad'>
-      <div className='wrapper-main-foro'>
+    <>
+      <Container className='pt-5 mb-3'>
+        <h1 className='fw-bold'>
+          Foro de <br />Electromovilidad 2023
+        </h1>
+        <p className='foro-frase mt-3'>¡Sé parte del foro más<br /> importante de la industria en<br /> Guanajuato!</p>
+        <Form className='mt-5' id='form-newsletter' onSubmit={handleSubmit}>
+          <Row>
+            <Col>
+              <Form.Group className='mb-3' controlId='formBasicPassword'>
+                <Form.Label>Nombre</Form.Label>
+                <Form.Control type='text' name='nombre' required />
+              </Form.Group>
+              <Form.Group className='mb-3' controlId='formBasicEmail'>
+                <Form.Label>Email</Form.Label>
+                <Form.Control type='email' name='email' required />
+              </Form.Group>
+            </Col>
+            <Col>
+              <Form.Group className='mb-3' controlId='formBasiSubject'>
+                <Form.Label>Teléfono</Form.Label>
+                <Form.Control type='number' name='telefono' required />
+              </Form.Group>
+              <Form.Group className='mb-3' controlId='formBasicPassword'>
+                <Form.Label>Empresa</Form.Label>
+                <Form.Control type='text' name='empresa' required />
+              </Form.Group>
 
-        <Container className='pt-5 mb-3'>
-          <h1 className='fw-bold'>
-            Foro de <br />Electromovilidad
-          </h1>
-          <p className='foro-frase mt-3'>¡Sé parte del foro más<br /> importante de la industria en<br /> Guanajuato!</p>
-          <Form className='mt-5' id='form-newsletter' onSubmit={handleSubmit}>
-            <Row>
-              <Col>
-                <Form.Group className='mb-3' controlId='formBasicPassword'>
-                  <Form.Label>Nombre</Form.Label>
-                  <Form.Control type='text' name='nombre' required />
-                </Form.Group>
-                <Form.Group className='mb-3' controlId='formBasicEmail'>
-                  <Form.Label>Email</Form.Label>
-                  <Form.Control type='email' name='email' required />
-                </Form.Group>
+            </Col>
+          </Row>
+          <Suspense fallback={<div>Loading reCAPTCHA...</div>}>
+            <ReCAPTCHA
+              sitekey='6LeljqwnAAAAAHcToBhu6iq8o4kahL9sopQjC1A3'
+              ref={captchaRef}
+              onChange={onChange}
+            />
+          </Suspense>
+          {captcha ? '' : <div style={{ color: '#dc3545' }}>{message}</div>}
+          <Button variant='light' type='submit' className='mt-3 fw-bold'>
+            Obtén pase gratis
+          </Button>
+        </Form>
+      </Container>
+      <div className='foro-date'>
+        <div>
+          <p className='border-end'>06<br />
+            <small>Octubre</small>
+          </p>
 
-              </Col>
-              <Col>
-                <Form.Group className='mb-3' controlId='formBasiSubject'>
-                  <Form.Label>Teléfono</Form.Label>
-                  <Form.Control type='number' name='telefono' required />
-                </Form.Group>
-                <Form.Group className='mb-3' controlId='formBasicPassword'>
-                  <Form.Label>Empresa</Form.Label>
-                  <Form.Control type='text' name='empresa' required />
-                </Form.Group>
-
-              </Col>
-            </Row>
-
-            <Suspense fallback={<div>Loading reCAPTCHA...</div>}>
-              <ReCAPTCHA
-                sitekey='6LeljqwnAAAAAHcToBhu6iq8o4kahL9sopQjC1A3'
-                ref={captchaRef}
-                onChange={onChange}
-              />
-            </Suspense>
-            {captcha ? '' : <div style={{ color: '#dc3545' }}>{message}</div>}
-            <Button variant='light' type='submit' className='mt-3 fw-bold'>
-              Obtén pase gratis
-            </Button>
-          </Form>
-        </Container>
-        <div className='foro-date'>
-          <div>
-            <p className='border-end'>06<br />
-              <small>Octubre</small>
-            </p>
-
-          </div>
-          <div>
-            <p className='border-end'>9:00<br />
-              <small>AM</small>
-            </p>
-
-          </div>
-          <div>
-            <p>POLIFORUM<br />
-              <small>LEÓN</small>
-            </p>
-          </div>
         </div>
-        <Container>
-          <div className='d-inline-block'>
-            <img src='/igecoLogo.webp' alt='igeco' width={300} />
-            <img src='/GTO 200 WT.png' alt='gto-200años' width={150} />
+        <div>
+          <p className='border-end'>9:00<br />
+            <small>AM</small>
+          </p>
 
-          </div>
-
-        </Container>
-
+        </div>
+        <div>
+          <p>POLIFORUM<br />
+            <small>LEÓN</small>
+          </p>
+        </div>
       </div>
-    </div>
+
+    </>
   )
 }
