@@ -6,6 +6,9 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { v4 as uuidv4 } from 'uuid'
 import { useNavigate } from 'react-router-dom'
 
+import { Email } from './Email'
+import { render } from '@react-email/render'
+
 const ReCAPTCHA = lazy(() => import('react-google-recaptcha'))
 
 export function Register () {
@@ -28,8 +31,10 @@ export function Register () {
       captchaRef.current.reset()
       setCaptcha(false)
       const qrcode = uuidv4()
-      navigate('/registro-gratis', { state: { qrcode, token } })
-      /* const formData = Object.fromEntries(new window.FormData(event.target))
+      const formData = Object.fromEntries(new window.FormData(event.target))
+
+      navigate('/registro-gratis', { state: { qrcode, formData } })
+      /*
       const requestOptions = {
         method: 'POST',
         headers: {

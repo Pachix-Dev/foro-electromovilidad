@@ -3,6 +3,7 @@ import { Register } from './components/Register'
 import './App.css'
 import { Pass } from './components/Pass'
 import { Container } from 'react-bootstrap'
+import { Verify } from './components/Verify'
 
 export function App () {
   return (
@@ -11,7 +12,7 @@ export function App () {
         <Routes>
           <Route path='/' element={<Register />} />
           <Route path='/registro-gratis' element={<Pass />} />
-          <Route path='/verify' element={<Pass />} />
+          <Route path='/verify/:qrcode' element={<Verify />} />
         </Routes>
         <Container>
           <div className='d-inline-block'>

@@ -1,5 +1,5 @@
 .foro-electromovilidad{
-  background-image: url('./bgForoElectromovilidad.webp');
+  background-image: url('/bgForoElectromovilidad.webp');
   background-size: cover; 
   height: 100vh;
 }
@@ -52,9 +52,10 @@ h1{
 }
 .Ticket {
   color: white;
-  perspective: 1000px;
+  perspective: 60px;
   background-color:black;
   border-radius: 20px;
+  transition: transform 0.1s ease;
 }
 .bg-ticket{
   background: radial-gradient(75.53% 100.65% at 50% 145.96%,rgba(83, 71, 255, 0.5),rgba(87,205,255,0) 100%);
