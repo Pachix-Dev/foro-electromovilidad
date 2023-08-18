@@ -6,9 +6,6 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { v4 as uuidv4 } from 'uuid'
 import { useNavigate } from 'react-router-dom'
 
-import { Email } from './Email'
-import { render } from '@react-email/render'
-
 const ReCAPTCHA = lazy(() => import('react-google-recaptcha'))
 
 export function Register () {
@@ -33,8 +30,6 @@ export function Register () {
       const qrcode = uuidv4()
       const formData = Object.fromEntries(new window.FormData(event.target))
 
-      navigate('/registro-gratis', { state: { qrcode, formData } })
-      /*
       const requestOptions = {
         method: 'POST',
         headers: {
@@ -42,21 +37,31 @@ export function Register () {
         },
         body: JSON.stringify({ token, formData, qrcode })
       }
+      const requestOptions2 = {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ formData, qrcode })
+      }
       try {
         const res = await fetch(
-          'https://igeco.mx/foro-electromovilidad/backend/register.php',
+          'https://hfmexico.mx/foro-electromovilidad-2023/backend/register.php',
           requestOptions
         )
         const data = await res.json()
-        if (data.status) {
-          setMessage('Message send successfully!!')
+        console.log(data)
+        /* if (data.status) {
+          const sendStatus = await fetch('http://localhost:3003/send-email', requestOptions2)
+          console.log(sendStatus)
+          navigate('/registro-gratis', { state: { qrcode, formData } })
         } else {
           setMessage('Sorry we couldn\'t verify you are not robot try again...')
-        }
+        } */
       } catch (error) {
         console.log(error)
-      } */
-      document.getElementById('form-newsletter').reset()
+      }
+      // document.getElementById('form-newsletter').reset()
     }
   }
   return (

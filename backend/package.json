@@ -1,0 +1,22 @@
+{
+  "name": "foro-electromovilidad-email",
+  "version": "1.0.0",
+  "description": "backend for send emails with qr",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Fabian Yapura Claros",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "16.1.1",
+    "express": "4.18.2",
+    "nodemailer": "6.8.0",
+    "qrcode": "1.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
