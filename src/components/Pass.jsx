@@ -25,7 +25,7 @@ export function Pass () {
           <Row className='pt-5'>
             <Col>
               <h1>Ya estas dentro!<br /> Ahora hazlo realidad.</h1><br />
-              <smal>Te enviamos tu pase por correo electronico no olvides revisar tu buzon de spam si no lo encuentras en tu bandeja de entrada.</smal>
+              <small>Te enviamos tu pase por correo electronico no olvides revisar tu buzon de spam si no lo encuentras en tu bandeja de entrada.</small>
             </Col>
             <Col md={6}>
               <div

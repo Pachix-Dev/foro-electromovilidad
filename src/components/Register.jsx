@@ -65,7 +65,33 @@ export function Register () {
         <h1 className='fw-bold'>
           Foro de <br />Electromovilidad 2023
         </h1>
-        <p className='foro-frase mt-3'>¡Sé parte del foro más<br /> importante de la industria en<br /> Guanajuato!</p>
+        <Row>
+          <Col>
+            <p className='foro-frase mt-3'>¡Sé parte del foro más<br /> importante de la industria en<br /> Guanajuato!</p>
+          </Col>
+          <Col className='my-auto'>
+            <div className='foro-date'>
+              <div>
+                <p className='border-end'>06<br />
+                  <small>Octubre</small>
+                </p>
+
+              </div>
+              <div>
+                <p className='border-end'>9:00<br />
+                  <small>AM</small>
+                </p>
+
+              </div>
+              <div>
+                <p>POLIFORUM<br />
+                  <small>LEÓN</small>
+                </p>
+              </div>
+            </div>
+          </Col>
+        </Row>
+
         <Form className='mt-5' id='form-newsletter' onSubmit={handleSubmit}>
           <Row>
             <Col>
@@ -103,25 +129,6 @@ export function Register () {
           </Button>
         </Form>
       </Container>
-      <div className='foro-date'>
-        <div>
-          <p className='border-end'>06<br />
-            <small>Octubre</small>
-          </p>
-
-        </div>
-        <div>
-          <p className='border-end'>9:00<br />
-            <small>AM</small>
-          </p>
-
-        </div>
-        <div>
-          <p>POLIFORUM<br />
-            <small>LEÓN</small>
-          </p>
-        </div>
-      </div>
 
     </>
   )
