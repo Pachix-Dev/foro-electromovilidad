@@ -15,7 +15,7 @@ export function Pass () {
 
   useEffect(() => {
     if (!location.state) {
-      window.location.href = '/'
+      window.location.href = '/foro-electromovilidad/'
     }
   }, [location])
   return (
@@ -48,7 +48,7 @@ export function Pass () {
                     <QRCode
                       size={256}
                       style={{ height: 'auto', width: '80' }}
-                      value={'https:///igeco.mx/foro-electromovilidad/verify/' + location?.state?.qrcode}
+                      value={'https:///hfmexico.mx/foro-electromovilidad/verify/' + location?.state?.qrcode}
                       viewBox='0 0 256 256'
                     />
                   </div>
