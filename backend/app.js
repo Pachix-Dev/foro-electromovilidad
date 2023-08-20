@@ -5,7 +5,17 @@ const app = express()
 const nodemailer = require('nodemailer')
 const emailLayout = require('./templateEmail/emailLayout')
 
-app.use(cors())
+app.use(cors({
+  origin: (origin, callback) => {
+    const ACCEPTED_ORIGINS = ['http://localhost:5173', 'https://igego.com.mx', 'https://hfmexico.mx']
+
+    if (ACCEPTED_ORIGINS.includes(origin)) {
+      return callback(null, true)
+    }
+
+    return callback(new Error('Not allowed by CORS'))
+  }
+}))
 app.use(express.json())
 
 app.post('/send-email', async (req, res) => {
@@ -25,12 +35,11 @@ app.post('/send-email', async (req, res) => {
     const mailOptions = {
       from: process.env.USER_GMAIL,
       to: formData.email,
-      subject: 'Welcome to Our App',
+      subject: '¡Estás registrado en Foro-electromovilidad!',
       attachDataUrls: true,
       html: emailContent
     }
-    const sendStatus = await transporter.sendMail(mailOptions)
-    console.log(sendStatus)
+    await transporter.sendMail(mailOptions)
     res.status(200).json({ message: 'Welcome email sent successfully' })
   } catch (error) {
     console.error(error)

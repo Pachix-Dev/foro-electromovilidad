@@ -44,20 +44,19 @@ export function Register () {
         },
         body: JSON.stringify({ formData, qrcode })
       }
+      navigate('/registro-gratis', { state: { qrcode, formData } })
       try {
         const res = await fetch(
           'https://hfmexico.mx/foro-electromovilidad-2023/backend/register.php',
           requestOptions
         )
         const data = await res.json()
-        console.log(data)
-        /* if (data.status) {
-          const sendStatus = await fetch('http://localhost:3003/send-email', requestOptions2)
-          console.log(sendStatus)
+        if (data.status) {
+          await fetch('http://localhost:3003/send-email', requestOptions2)
           navigate('/registro-gratis', { state: { qrcode, formData } })
         } else {
           setMessage('Sorry we couldn\'t verify you are not robot try again...')
-        } */
+        }
       } catch (error) {
         console.log(error)
       }
