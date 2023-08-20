@@ -1,6 +1,6 @@
 const QRCode = require('qrcode')
 const emailLayout = async (formData, qrcode) => {
-  const qrCodeUrl = `https://igego.com.mx/foro-electromovilidad/verify/${qrcode}`
+  const qrCodeUrl = `https://hfmexico.mx/foro-electromovilidad/verify/${qrcode}`
   const qrCodeImage = await QRCode.toDataURL(qrCodeUrl)
 
   return (
@@ -14,12 +14,12 @@ const emailLayout = async (formData, qrcode) => {
               <td>
                 <div style="background: black;color: white;border-radius: 20px;">
                   <div style="background: radial-gradient(75.53% 100.65% at 50% 145.96%,rgba(83, 71, 255, 0.5),rgba(87,205,255,0) 100%);padding: 20px;">                   
-                    <img src="https://hfmexico.mx/foro-electromovilidad-2023/igecoLogo.webp" alt="logo" style="width: 300px;">                 
+                    <img src="https://hfmexico.mx/foro-electromovilidad/igecoLogo.webp" alt="logo" style="width: 300px;">                 
                     <table width="100%">
                       <tbody>
                         <tr>
                           <td>
-                            <img src="https://hfmexico.mx/foro-electromovilidad-2023/user-circle.png" alt="user-circle" style="width: 50px;">
+                            <img src="https://hfmexico.mx/foro-electromovilidad/user-circle.png" alt="user-circle" style="width: 50px;">
                           </td>
                           <td width="100%">
                             <p style="margin:0">

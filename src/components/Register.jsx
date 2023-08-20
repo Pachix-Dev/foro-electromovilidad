@@ -47,7 +47,7 @@ export function Register () {
       navigate('/registro-gratis', { state: { qrcode, formData } })
       try {
         const res = await fetch(
-          'https://hfmexico.mx/foro-electromovilidad-2023/backend/register.php',
+          'https://hfmexico.mx/foro-electromovilidad/backend/register.php',
           requestOptions
         )
         const data = await res.json()
