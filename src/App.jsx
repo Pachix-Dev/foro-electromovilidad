@@ -20,8 +20,8 @@ export function App () {
       <footer className=''>
         <Container>
           <div className='d-inline-block text-center'>
-            <img src='/igecoLogo.webp' alt='igeco' width={300} />
-            <img src='/GTO 200 WT.webp' alt='gto-200años' width={130} />
+            <img src='/foro-electromovilidad/igecoLogo.webp' alt='igeco' width={300} />
+            <img src='/foro-electromovilidad/GTO 200 WT.webp' alt='gto-200años' width={130} />
           </div>
         </Container>
       </footer>
