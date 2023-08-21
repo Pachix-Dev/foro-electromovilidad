@@ -25,7 +25,9 @@ export function Pass () {
           <Row className='pt-5'>
             <Col>
               <h1>¡Estás registrado en Foro Electromovilidad!</h1><br />
-              <small>Te enviamos tu pase por correo electronico no olvides revisar tu buzon de spam si no lo encuentras en tu bandeja de entrada.</small>
+              {location?.state?.dataEmail
+                ? <small>Te enviamos tu pase por correo electronico no olvides revisar tu buzon de spam si no lo encuentras en tu bandeja de entrada.</small>
+                : <small>No hemos podido enviarte tu pase al correo que nos compartiste, por favor guarda este QR y presentalo el dia del evento.</small>}
             </Col>
             <Col md={6}>
               <div

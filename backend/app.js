@@ -7,7 +7,7 @@ const emailLayout = require('./templateEmail/emailLayout')
 
 app.use(cors({
   origin: (origin, callback) => {
-    const ACCEPTED_ORIGINS = ['https://igego.com.mx', 'https://hfmexico.mx']
+    const ACCEPTED_ORIGINS = ['http://localhost:5173', 'https://igego.com.mx', 'https://hfmexico.mx']
 
     if (ACCEPTED_ORIGINS.includes(origin)) {
       return callback(null, true)
@@ -40,10 +40,10 @@ app.post('/send-email', async (req, res) => {
       html: emailContent
     }
     await transporter.sendMail(mailOptions)
-    res.status(200).json({ message: 'Welcome email sent successfully' })
+    res.status(200).json({ status: true, message: 'Welcome email sent successfully' })
   } catch (error) {
     console.error(error)
-    res.status(500).json({ message: 'Error sending welcome email' })
+    res.status(500).json({ status: false, message: 'Error sending welcome email' })
   }
 })
 

@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import { Suspense, lazy, useRef, useState } from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row, Spinner } from 'react-bootstrap'
 import { v4 as uuidv4 } from 'uuid'
 import { useNavigate } from 'react-router-dom'
 
@@ -12,6 +12,7 @@ export function Register () {
   const captchaRef = useRef()
   const [captcha, setCaptcha] = useState(false)
   const [message, setMessage] = useState()
+  const [sendStatus, setSendStatus] = useState(false)
   const navigate = useNavigate()
 
   const onChange = () => {
@@ -45,21 +46,27 @@ export function Register () {
         body: JSON.stringify({ formData, qrcode })
       }
       try {
+        setSendStatus(true)
         const res = await fetch(
           'https://hfmexico.mx/foro-electromovilidad/backend/register.php',
           requestOptions
         )
         const data = await res.json()
         if (data === '23000') {
+          setSendStatus(false)
           setMessage('Ya te encuentras registrado, por favor revisa tu correo.')
         } else if (data.status) {
-          await fetch('http://localhost:3003/send-email', requestOptions2)
-          navigate('/registro-gratis', { state: { qrcode, formData } })
+          const statusEmail = await fetch('http://localhost:3003/send-email', requestOptions2)
+          const dataEmail = await statusEmail.json()
+          navigate('/registro-gratis', { state: { qrcode, formData, dataEmail } })
         } else {
+          setSendStatus(false)
           setMessage('Lo sentimos no pudimos comprobar que no eres un robot...')
         }
       } catch (error) {
         console.log(error)
+        setSendStatus(false)
+        setMessage('Lo sentimos en este momento no es posible enviar tu información...')
       }
       document.getElementById('form-newsletter').reset()
     }
@@ -100,21 +107,21 @@ export function Register () {
         <Form className='mt-5' id='form-newsletter' onSubmit={handleSubmit}>
           <Row>
             <Col>
-              <Form.Group className='mb-3' controlId='formBasicPassword'>
+              <Form.Group className='mb-3' controlId='formId'>
                 <Form.Label>Nombre</Form.Label>
                 <Form.Control type='text' name='nombre' required />
               </Form.Group>
-              <Form.Group className='mb-3' controlId='formBasicEmail'>
+              <Form.Group className='mb-3' controlId='formEmail'>
                 <Form.Label>Email</Form.Label>
                 <Form.Control type='email' name='email' required />
               </Form.Group>
             </Col>
             <Col>
-              <Form.Group className='mb-3' controlId='formBasiSubject'>
+              <Form.Group className='mb-3' controlId='formTel'>
                 <Form.Label>Teléfono</Form.Label>
                 <Form.Control type='number' name='telefono' required />
               </Form.Group>
-              <Form.Group className='mb-3' controlId='formBasicPassword'>
+              <Form.Group className='mb-3' controlId='formEmpresa'>
                 <Form.Label>Empresa</Form.Label>
                 <Form.Control type='text' name='empresa' required />
               </Form.Group>
@@ -130,7 +137,9 @@ export function Register () {
           </Suspense>
           {captcha ? '' : <div className='fw-bold' style={{ color: 'red' }}>{message}</div>}
           <Button variant='light' type='submit' className='mt-3 fw-bold'>
-            Obtén pase gratis
+            {sendStatus
+              ? <><Spinner as='span' animation='border' size='sm' role='status' aria-hidden='true' /><span> Loading...</span></>
+              : 'Obtén pase gratis'}
           </Button>
         </Form>
       </Container>

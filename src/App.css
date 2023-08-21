@@ -1,14 +1,16 @@
 .foro-electromovilidad{
   background-image: url('/bgForoElectromovilidad.webp');
   background-size: cover;
-  background-repeat: no-repeat;   
+  background-repeat: no-repeat;
+  height: 85vh;   
 }
 .foro-frase{
   font-size: 20px;
 }
 .wrapper-main-foro{  
   background: linear-gradient(to right, rgb(6, 1, 109), rgba(59, 160, 237, 0.3) );
-  color: white;  
+  color: white;
+  height: 100%;  
 }
 label{
   font-weight: bold;
@@ -62,6 +64,7 @@ footer{
   background-color: black;
   color: white;
   padding: 20px;
+  height: 15vh;
 }
 @media (width < 940px) {
   .foro-electromovilidad{
