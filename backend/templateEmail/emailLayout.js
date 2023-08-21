@@ -1,6 +1,6 @@
 const QRCode = require('qrcode')
 const emailLayout = async (formData, qrcode) => {
-  const qrCodeUrl = `https://hfmexico.mx/foro-electromovilidad/verify-code-foro/${qrcode}`
+  const qrCodeUrl = `https://hfmexico.mx/foro-electromovilidad/verify/${qrcode}`
   const qrCodeImage = await QRCode.toDataURL(qrCodeUrl)
 
   return (

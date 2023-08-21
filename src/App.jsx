@@ -13,7 +13,7 @@ export function App () {
           <Routes>
             <Route path='/' element={<Register />} />
             <Route path='/registro-gratis' element={<Pass />} />
-            <Route path='/verify-code-foro/:qr' element={<Verify />} />
+            <Route path='/verify/:qr' element={<Verify />} />
           </Routes>
         </div>
       </div>
