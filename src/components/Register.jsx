@@ -51,16 +51,20 @@ export function Register () {
           requestOptions
         )
         const data = await res.json()
+        if (data === '23000') {
+          setMessage('Ya te encuentras registrado, por favor revisa tu correo.')
+          return
+        }
         if (data.status) {
           await fetch('http://localhost:3003/send-email', requestOptions2)
           navigate('/registro-gratis', { state: { qrcode, formData } })
         } else {
-          setMessage('Sorry we couldn\'t verify you are not robot try again...')
+          setMessage('Lo sentimos no pudimos comprobar que no eres un robot...')
         }
       } catch (error) {
         console.log(error)
       }
-      // document.getElementById('form-newsletter').reset()
+      document.getElementById('form-newsletter').reset()
     }
   }
   return (
