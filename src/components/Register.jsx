@@ -51,9 +51,10 @@ export function Register () {
           requestOptions
         )
         const data = await res.json()
+        console.log(data)
         if (data === '23000') {
           setMessage('Ya te encuentras registrado, por favor revisa tu correo.')
-          return
+          return null
         }
         if (data.status) {
           await fetch('http://localhost:3003/send-email', requestOptions2)
