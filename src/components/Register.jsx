@@ -50,7 +50,6 @@ export function Register () {
           requestOptions
         )
         const data = await res.json()
-        console.log(data)
         if (data === '23000') {
           setMessage('Ya te encuentras registrado, por favor revisa tu correo.')
         } else if (data.status) {
@@ -129,7 +128,7 @@ export function Register () {
               onChange={onChange}
             />
           </Suspense>
-          {captcha ? '' : <div style={{ color: '#dc3545' }}>{message}</div>}
+          {captcha ? '' : <div className='fw-bold' style={{ color: 'red' }}>{message}</div>}
           <Button variant='light' type='submit' className='mt-3 fw-bold'>
             Obtén pase gratis
           </Button>
