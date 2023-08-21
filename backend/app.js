@@ -7,7 +7,7 @@ const emailLayout = require('./templateEmail/emailLayout')
 
 app.use(cors({
   origin: (origin, callback) => {
-    const ACCEPTED_ORIGINS = ['http://localhost:5173', 'https://igego.com.mx', 'https://hfmexico.mx']
+    const ACCEPTED_ORIGINS = ['https://igego.com.mx', 'https://hfmexico.mx']
 
     if (ACCEPTED_ORIGINS.includes(origin)) {
       return callback(null, true)

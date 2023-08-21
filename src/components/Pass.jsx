@@ -33,7 +33,7 @@ export function Pass () {
                 style={{ transform: `rotateX(${rotateX}deg) rotateY(${rotateY}deg)` }}
               >
                 <div className='bg-ticket'>
-                  <img src='/igecoLogo.webp' alt='igeco' width={300} />
+                  <img src='/foro-electromovilidad/igecoLogo.webp' alt='igeco' width={300} />
                   <div className='d-flex justify-content-between align-items-center'>
 
                     <div className='d-flex align-items-center'>
@@ -48,7 +48,7 @@ export function Pass () {
                     <QRCode
                       size={256}
                       style={{ height: 'auto', width: '80' }}
-                      value={'https:///hfmexico.mx/foro-electromovilidad/verify/' + location?.state?.qrcode}
+                      value={'https:///hfmexico.mx/foro-electromovilidad/verify-code-foro/' + location?.state?.qrcode}
                       viewBox='0 0 256 256'
                     />
                   </div>
