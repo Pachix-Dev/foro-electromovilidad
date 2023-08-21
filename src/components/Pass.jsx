@@ -18,6 +18,7 @@ export function Pass () {
       window.location.href = '/foro-electromovilidad/'
     }
   }, [location])
+  console.log(location)
   return (
     <div className=''>
       {location?.state?.qrcode &&
@@ -25,7 +26,7 @@ export function Pass () {
           <Row className='pt-5'>
             <Col>
               <h1>¡Estás registrado en Foro Electromovilidad!</h1><br />
-              {location?.state?.dataEmail
+              {location?.state?.dataEmail?.status
                 ? <small>Te enviamos tu pase por correo electronico no olvides revisar tu buzon de spam si no lo encuentras en tu bandeja de entrada.</small>
                 : <small>No hemos podido enviarte tu pase al correo que nos compartiste, por favor guarda este QR y presentalo el dia del evento.</small>}
             </Col>
