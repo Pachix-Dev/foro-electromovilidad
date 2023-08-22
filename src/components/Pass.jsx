@@ -57,7 +57,7 @@ export function Pass () {
                   </div>
                   <div className='text-center'>
                     <h2>Foro Electromovilidad</h2>
-                    6 de octubre de 2023 7:00 am - 8:00 pm<br />
+                    6 de octubre de 2023 9:00 AM<br />
                   </div>
                 </div>
               </div>
