@@ -24,7 +24,7 @@ app.post('/send-email', async (req, res) => {
   const { qrcode, formData } = req.body
   try {
     const transporter = nodemailer.createTransport({
-      host: process.env.HOSTNAME,
+      host: process.env.SMTP_GMAIL,
       port: process.env.PORT_GMAIL,
       secure: true,
       auth: {
