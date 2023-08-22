@@ -81,8 +81,8 @@ export function Pass () {
             <Col md={6} className='mx-auto'>
               <h1>¡Estás registrado en Foro Electromovilidad!</h1><br />
               {location?.state?.dataEmail?.status
-                ? <small>Te enviamos tu pase por correo electronico no olvides revisar tu buzon de spam si no lo encuentras en tu bandeja de entrada.</small>
-                : <small>No hemos podido enviarte tu pase al correo que nos compartiste, por favor guarda este QR y presentalo el dia del evento.</small>}
+                ? <p>Te enviamos tu pase por correo electronico no olvides revisar tu buzon de spam si no lo encuentras en tu bandeja de entrada.</p>
+                : <p>No hemos podido enviarte tu pase al correo que nos compartiste, por favor guarda este QR y presentalo el dia del evento.</p>}
             </Col>
           </Row>
         </Container>}
