@@ -4,6 +4,7 @@ const cors = require('cors')
 const app = express()
 const nodemailer = require('nodemailer')
 const emailLayout = require('./templateEmail/emailLayout')
+const emailLayout2 = require('./templateEmail/emailLayout2')
 
 app.use(cors({
   origin: (origin, callback) => {
@@ -38,6 +39,35 @@ app.post('/send-email', async (req, res) => {
       from: process.env.USER_GMAIL,
       to: formData.email,
       subject: '¡Estás registrado en Foro-electromovilidad!',
+      attachDataUrls: true,
+      html: emailContent
+    }
+    await transporter.sendMail(mailOptions)
+    res.status(200).json({ status: true, message: 'Welcome email sent successfully' })
+  } catch (error) {
+    console.error(error)
+    res.status(500).json({ status: false, message: 'Error sending welcome email' })
+  }
+})
+
+app.post('/send-email2', async (req, res) => {
+  const { qrcode, formData } = req.body
+  try {
+    const transporter = nodemailer.createTransport({
+      host: process.env.SMTP_GMAIL,
+      port: process.env.PORT_GMAIL,
+      secure: true,
+      auth: {
+        user: process.env.USER_GMAIL,
+        pass: process.env.PASS_GMAIL
+      }
+    })
+
+    const emailContent = await emailLayout2(formData, qrcode)
+    const mailOptions = {
+      from: process.env.USER_GMAIL,
+      to: formData.email,
+      subject: '¡Estás registrado en Foro-Nearshoring!',
       attachDataUrls: true,
       html: emailContent
     }
