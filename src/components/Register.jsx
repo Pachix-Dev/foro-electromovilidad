@@ -204,6 +204,35 @@ export function Register () {
               : 'Obtén pase gratis'}
           </Button>
         </Form>
+
+        <p className='foro-frase mt-5'>El foro de electromovilidad y semiconductores, está compuesto por los principales actores que
+          darán crecimiento éxito y sostenibilidad al proyecto; electromovilidad y semiconductores,
+          requieren temas fundamentales a tratar, como lo son los tipos de transporte eléctrico, la
+          infraestructura de carga, las baterías y su tecnología, las energías renovables y
+          almacenamiento, principales productores de mundiales de semiconductores, entor
+        </p>
+        <h2>Temas segmentos de enfoque</h2>
+        <ul>
+          <li>
+            Tipos de transporte eléctrico
+          </li>
+          <li>
+            Nuevas plantas de ensamble de autos eléctricos y la conversión de las plantas de combustión
+            interna.
+          </li>
+          <li>
+            Infraestructura de carga, generación y almacenamiento.
+          </li>
+          <li>
+            Baterías
+          </li>
+          <li>
+            Políticas gubernamentales y compromisos contraídos internacionalmente.
+          </li>
+          <li>
+            Principales productores de semiconductores, y entorno mundial.
+          </li>
+        </ul>
       </Container>
 
     </>
