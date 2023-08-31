@@ -213,11 +213,8 @@ export function Register () {
           </Button>
         </Form>
 
-        <p className='foro-frase mt-5'>El foro de electromovilidad y semiconductores, está compuesto por los principales actores que
-          darán crecimiento éxito y sostenibilidad al proyecto; electromovilidad y semiconductores,
-          requieren temas fundamentales a tratar, como lo son los tipos de transporte eléctrico, la
-          infraestructura de carga, las baterías y su tecnología, las energías renovables y
-          almacenamiento, principales productores de mundiales de semiconductores, entor
+        <p className='foro-frase mt-5'>¡Descubre el camino hacia una movilidad más inteligente y sostenible en nuestro Foro de Electromovilidad! Únete a nosotros para explorar las últimas innovaciones en vehículos eléctricos, conocer expertos en la industria, descubrir las claves de la infraestructura de carga del futuro y ser parte de la revolución que está transformando la forma en que nos movemos. Si estás interesado en impulsar un mundo más limpio y eficiente, ¡este es el evento que no debes perderte!
+          Regístrate ahora y sé parte del cambio hacia un futuro de movilidad eléctrica.
         </p>
         <h2>Temas segmentos de enfoque</h2>
         <ul>
