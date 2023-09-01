@@ -128,6 +128,56 @@ export function Register () {
           </Col>
         </Row>
 
+        <p className='foro-frase mt-5'>¡Descubre el camino hacia una movilidad más inteligente y sostenible en nuestro Foro de Electromovilidad!<br /><br />
+          Explorar las últimas tendencias e innovaciones en vehículos eléctricos, conoce expertos en la industria y descubre las claves de la infraestructura de carga del futuro.<br /><br />
+          Regístrate ahora y sé parte del cambio hacia un futuro de movilidad eléctrica.
+        </p>
+        <h2>Temas segmentos de enfoque</h2>
+        <ul>
+          <li>
+            Tipos de transporte eléctrico
+          </li>
+          <li>
+            Nuevas plantas de ensamble de autos eléctricos y la conversión de las plantas de combustión
+            interna.
+          </li>
+          <li>
+            Infraestructura de carga, generación y almacenamiento.
+          </li>
+          <li>
+            Baterías
+          </li>
+          <li>
+            Políticas gubernamentales y compromisos contraídos internacionalmente.
+          </li>
+          <li>
+            Principales productores de semiconductores, y entorno mundial.
+          </li>
+        </ul>
+
+        <h1 className='mt-5 text-light'>Ponentes</h1>
+        <p className='text-light' />
+        <div className='mt-5 pb-5 program-wrapper-speakers'>
+          {speakers.map((speaker, index) => (
+            <button key={index} onClick={() => handleModal2(speaker)}>
+              <div className='speaker-item h-100'>
+                <img src={speaker.avatar} width={300} height={300} alt={speaker.name} />
+                <div className='info_speakers'>
+                  <h2>{speaker.name}</h2>
+                  <p className='m-0'>{speaker.rol}</p>
+                  <small>{speaker.company}</small>
+                </div>
+              </div>
+            </button>
+          ))}
+          <div />
+        </div>
+        <DetailSpeaker
+          show={modalShow}
+          onHide={() => setModalShow(false)}
+          speaker={detailSpeaker}
+        />
+
         <Form className='mt-5' id='form-newsletter' onSubmit={handleSubmit}>
           <Row>
             <Col>
@@ -212,55 +262,6 @@ export function Register () {
               : 'Obtén pase gratis'}
           </Button>
         </Form>
-
-        <p className='foro-frase mt-5'>¡Descubre el camino hacia una movilidad más inteligente y sostenible en nuestro Foro de Electromovilidad! Únete a nosotros para explorar las últimas innovaciones en vehículos eléctricos, conocer expertos en la industria, descubrir las claves de la infraestructura de carga del futuro y ser parte de la revolución que está transformando la forma en que nos movemos. Si estás interesado en impulsar un mundo más limpio y eficiente, ¡este es el evento que no debes perderte!
-          Regístrate ahora y sé parte del cambio hacia un futuro de movilidad eléctrica.
-        </p>
-        <h2>Temas segmentos de enfoque</h2>
-        <ul>
-          <li>
-            Tipos de transporte eléctrico
-          </li>
-          <li>
-            Nuevas plantas de ensamble de autos eléctricos y la conversión de las plantas de combustión
-            interna.
-          </li>
-          <li>
-            Infraestructura de carga, generación y almacenamiento.
-          </li>
-          <li>
-            Baterías
-          </li>
-          <li>
-            Políticas gubernamentales y compromisos contraídos internacionalmente.
-          </li>
-          <li>
-            Principales productores de semiconductores, y entorno mundial.
-          </li>
-        </ul>
-
-        <h1 className='mt-5 text-light'>Ponentes</h1>
-        <p className='text-light' />
-        <div className='mt-5 pb-5 program-wrapper-speakers'>
-          {speakers.map((speaker, index) => (
-            <button key={index} onClick={() => handleModal2(speaker)}>
-              <div className='speaker-item h-100'>
-                <img src={speaker.avatar} width={300} height={300} alt={speaker.name} />
-                <div className='info_speakers'>
-                  <h2>{speaker.name}</h2>
-                  <p className='m-0'>{speaker.rol}</p>
-                  <small>{speaker.company}</small>
-                </div>
-              </div>
-            </button>
-          ))}
-          <div />
-        </div>
-        <DetailSpeaker
-          show={modalShow}
-          onHide={() => setModalShow(false)}
-          speaker={detailSpeaker}
-        />
       </Container>
 
     </>
