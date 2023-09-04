@@ -98,7 +98,7 @@ export function Register () {
   return (
     <>
       <div className='vh-100'>
-        <video className='bg-electromovilidad' autoPlay muted loop src='/bgElectromovilidad.webm' />
+        <video className='bg-electromovilidad' autoPlay muted loop src='/foro-electromovilidad/bgElectromovilidad.webm' />
         <Container className='pt-5 mb-3 electromovilidad-text'>
           <h1 className='fw-bold'>
             Foro de <br />Electromovilidad 2023
