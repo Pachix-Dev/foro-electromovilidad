@@ -177,7 +177,7 @@ export function Register () {
           onHide={() => setModalShow(false)}
           speaker={detailSpeaker}
         />
-
+        <h1 className='mt-5 text-light'>Registro</h1>
         <Form className='mt-5' id='form-newsletter' onSubmit={handleSubmit}>
           <Row>
             <Col>
