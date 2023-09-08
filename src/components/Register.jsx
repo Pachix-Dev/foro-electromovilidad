@@ -8,6 +8,7 @@ import { useNavigate } from 'react-router-dom'
 import { estados } from '../constans'
 import { speakers } from '../constans_speakers'
 import { DetailSpeaker } from './DetailSpeaker'
+import { Program } from './Program'
 
 const ReCAPTCHA = lazy(() => import('react-google-recaptcha'))
 
@@ -159,7 +160,7 @@ export function Register () {
             Principales productores de semiconductores, y entorno mundial.
           </li>
         </ul>
-
+        <Program />
         <h1 className='mt-5 text-light'>Ponentes</h1>
         <p className='text-light' />
         <div className='mt-5 pb-5 program-wrapper-speakers'>
