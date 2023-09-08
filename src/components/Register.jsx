@@ -9,6 +9,7 @@ import { estados } from '../constans'
 import { speakers } from '../constans_speakers'
 import { DetailSpeaker } from './DetailSpeaker'
 import { Program } from './Program'
+import { Menu } from './Menu'
 
 const ReCAPTCHA = lazy(() => import('react-google-recaptcha'))
 
@@ -98,40 +99,34 @@ export function Register () {
   }
   return (
     <>
-      <div className='vh-100'>
+      <Menu />
+      <div>
         <video className='bg-electromovilidad' autoPlay muted loop src='/foro-electromovilidad/bgElectromovilidad.webm' />
         <Container className='pt-5 mb-3 electromovilidad-text'>
-          <h1 className='fw-bold'>
-            Foro de <br />Electromovilidad 2023
-          </h1>
+          <center><h1 className='fw-bold pb-5'>Foro de Electromovilidad 2023</h1></center>
           <Row>
-            <Col>
-              <p className='foro-frase mt-3'>¡Sé parte del foro más<br /> importante de la industria en<br /> Guanajuato!</p>
+            <Col className='py-4'>
+              <h2 className='mt-1'>¡Sé parte del foro más importante de la industria en Guanajuato!</h2>
             </Col>
-            <Col className='my-auto'>
+          </Row>
+          <Row>
+            <Col className=''>
               <div className='foro-date'>
                 <div>
                   <p className='border-end'>06<br />
                     <small>Octubre</small>
                   </p>
-
                 </div>
                 <div>
-                  <p className='border-end'>9:00<br />
-                    <small>AM</small>
-                  </p>
-
+                  <p className='border-end'>09:00 - 15:30<br /><small>HRS</small></p>
                 </div>
                 <div>
-                  <p>POLIFORUM<br />
-                    <small>LEÓN</small>
-                  </p>
+                  <p>POLIFORUM<br /><small>LEÓN</small></p>
                 </div>
               </div>
             </Col>
           </Row>
-
-          <p className='foro-frase mt-5'>¡Descubre el camino hacia una movilidad más inteligente y sostenible en nuestro Foro de Electromovilidad!<br /><br />
+          <p className='foro-frase mt-4'>¡Descubre el camino hacia una movilidad más inteligente y sostenible en nuestro Foro de Electromovilidad!<br /><br />
             Explorar las últimas tendencias e innovaciones en vehículos eléctricos, conoce expertos en la industria y descubre las claves de la infraestructura de carga del futuro.<br /><br />
             Regístrate ahora y sé parte del cambio hacia un futuro de movilidad eléctrica.
           </p>
@@ -161,7 +156,7 @@ export function Register () {
           </li>
         </ul>
         <Program />
-        <h1 className='mt-5 text-light'>Ponentes</h1>
+        <h1 id='ponentes' className='mt-5 text-light'>Ponentes</h1>
         <p className='text-light' />
         <div className='mt-5 pb-5 program-wrapper-speakers'>
           {speakers.map((speaker, index) => (
@@ -183,7 +178,7 @@ export function Register () {
           onHide={() => setModalShow(false)}
           speaker={detailSpeaker}
         />
-        <h1 className='mt-5 text-light'>Registro</h1>
+        <h1 id='registro' className='mt-5 text-light'>Registro</h1>
         <Form className='mt-5' id='form-newsletter' onSubmit={handleSubmit}>
           <Row>
             <Col>
