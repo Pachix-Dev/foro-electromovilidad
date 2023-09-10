@@ -17,11 +17,12 @@ export function App () {
           </Routes>
         </div>
       </div>
-      <footer className=''>
+      <footer>
         <Container>
-          <div className='d-inline-block text-center'>
-            <img src='/foro-electromovilidad/igecoLogo.webp' alt='igeco' width={300} />
-            <img src='/foro-electromovilidad/GTO 200 WT.webp' alt='gto-200años' width={130} />
+          <div class='d-flex bd-highlight mb-4'>
+            <div class=' bd-highlight' style={{ width: '200px' }}><img src='/igeco_bn.webp' alt='igeco' className='w-100' /></div>
+            <div class=' bd-highlight' style={{ width: '200px' }}><img src='/deutsche_messe_bn.webp' alt='igeco' className='w-100' /></div>
+            <div class=' ms-auto' style={{ width: '200px' }}><img src='/logo-gto.webp' alt='gto-200años' className='w-100' /></div>
           </div>
         </Container>
       </footer>

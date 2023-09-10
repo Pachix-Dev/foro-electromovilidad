@@ -37,9 +37,74 @@
   background-repeat: no-repeat;
 }
 
-.foro-frase {
-  font-size: 18px;
+.foro-frase {font-size: 18px;}
+
+/* seccion  Temas segmentos de enfoque */
+.cont-segmento{
+  width: 300px; 
+  height: 200px; 
 }
+
+.item-img01{
+  background-image: url('/foro-electromovilidad/transporte.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.item-img02{
+  background-image: url('/foro-electromovilidad/ensamble .webp');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.item-img03{
+  background-image: url('/foro-electromovilidad/Infraestructura2.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.item-img04{
+  background-image: url('/foro-electromovilidad/baterias.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.item-img05{
+  background-image: url('/foro-electromovilidad/politicas.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.item-img06{
+  background-image: url('/foro-electromovilidad/semiconductores.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.cont-segmento {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+
+/* Estilo adicional para el texto si es necesario */
+.text-segmento{
+  margin: 0px;
+  padding: 15px 15px;
+  font-size: 18px;
+  font-weight: 500;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 3, 0.973)); 
+}
+
 
 .wrapper-main-foro {
   background: linear-gradient(to right, rgb(6, 1, 109), rgba(59, 160, 237, 0.3));
@@ -95,7 +160,7 @@ h1 {
 .btn:hover {
   background-color: rgb(255, 0, 0);
   color: white;
-  box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.5); /* Efecto de resplandor en hover */
+  box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.5); 
 }
 
 .Ticket {

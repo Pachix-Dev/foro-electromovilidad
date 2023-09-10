@@ -134,28 +134,19 @@ export function Register () {
         </Container>
       </div>
       <Container className='mt-5'>
-        <h2>Temas segmentos de enfoque</h2>
-        <ul>
-          <li>
-            Tipos de transporte eléctrico
-          </li>
-          <li>
-            Nuevas plantas de ensamble de autos eléctricos y la conversión de las plantas de combustión
-            interna.
-          </li>
-          <li>
-            Infraestructura de carga, generación y almacenamiento.
-          </li>
-          <li>
-            Baterías
-          </li>
-          <li>
-            Políticas gubernamentales y compromisos contraídos internacionalmente.
-          </li>
-          <li>
-            Principales productores de semiconductores, y entorno mundial.
-          </li>
-        </ul>
+        <div>
+          <h1>Segmentos de enfoque</h1><br /><br /><br />
+          <Row>
+            <Col xs={12} md={8} lg={4} className='p-3'><div className='w-100 cont-segmento item-img01'><p className='text-segmento text-start'>Transporte eléctrico</p></div></Col>
+            <Col xs={12} md={8} lg={4} className='p-3'><div className='w-100 cont-segmento item-img02'><p className='text-segmento'>Nuevas plantas de ensamble de autos eléctricos y la conversión de las plantas de combustión interna.</p></div></Col>
+            <Col xs={12} md={8} lg={4} className='p-3'><div className='w-100 cont-segmento item-img03'><p className='text-segmento'>Infraestructura de carga, generación y almacenamiento.</p></div></Col>
+          </Row>
+          <Row>
+            <Col xs={12} md={8} lg={4} className='p-3'><div className='w-100 cont-segmento item-img04'><p className='text-segmento'>Baterías</p></div></Col>
+            <Col xs={12} md={8} lg={4} className='p-3'><div className='w-100 cont-segmento item-img05'><p className='text-segmento'>Políticas gubernamentales y compromisos contraídos internacionalmente.</p></div></Col>
+            <Col xs={12} md={8} lg={4} className='p-3'><div className='w-100 cont-segmento item-img06'><p className='text-segmento'>Principales productores de semiconductores, y entorno mundial.</p></div></Col>
+          </Row>
+        </div>
         <Program />
         <h1 id='ponentes' className='mt-5 text-light'>Ponentes</h1>
         <p className='text-light' />
