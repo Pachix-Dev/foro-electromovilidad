@@ -5,13 +5,13 @@ const programITM = {
         id: 0,
         hour: '09:30 hrs',
         duration: '45 min',
-        event: 'Inauguración del Foro y palabras de  Bienvenida',
-        name: 'Diego Sinhue Rodríguez Vallejo | Bernd Rohde |  Wolfgang Dold | Luigi De Chia',
-        avatar: '/foro-nearshoring/speakers/DiegoSinhue.webp',
+        event: 'Inauguración y bienvenida ',
+        name: 'Bernd Rohde |  Wolfgang Dold | Luigi De Chia',
+        avatar: '',
         avatar2: '/foro-nearshoring/speakers/BerndRohde.webp',
         avatar3: '/foro-nearshoring/speakers/WolfgangDold.webp',
         avatar4: '/foro-nearshoring/speakers/LuigiChia.webp',
-        rol: 'Gobernador Constitucional de Guanajuato | CEO Italian German Exhibition Company | Embajador de Alemania | Embajador de Italia '
+        rol: 'CEO Italian German Exhibition Company México | Embajador de Alemania | Embajador de Italia '
       },
       {
         id: 0,
@@ -75,20 +75,20 @@ const programITM = {
         avatar2: '',
         avatar3: '',
         avatar4: '',
-        rol: ' Presidente Toyota Motoer México | Presidente Ejecutivo AMIA | CEO HISUN Motor México | Consejero Unión Europea'
+        rol: ' Presidente Toyota Motor México | Presidente Ejecutivo AMIA | CEO HISUN Motor México | Consejero de la Unión Europea'
       },
       {
         id: 0,
         id_s2: 0,
         hour: '15:00 hrs',
         duration: '45 min',
-        event: 'Palabras de cierre y conclusiones del Foro',
+        event: 'Ceremonia de clausura',
         name: 'Bernd Rohde | Azul Ogazón',
         avatar: '/foro-nearshoring/speakers/BerndRohde.webp',
         avatar2: '/foro-nearshoring/speakers/AzulOgazon.webp',
         avatar3: '',
         avatar4: '',
-        rol: 'CEO IGECo | Directora ITM'
+        rol: 'CEO Italian German Exhibition Company Mexico | Directora de Industrial Transformation Mexico'
       }
     ]
   }
