@@ -18,12 +18,12 @@ const programITM = {
         hour: '09:55 hrs',
         duration: '45 min',
         event: 'Hacia un transporte eléctrico y de bajas emisiones en México',
-        name: 'Josefina Lozano Soto | Francisco De Anda Orellana',
+        name: 'Josefina Lozano Soto | Isabel von Griesheim',
         avatar: '',
         avatar2: '',
         avatar3: '',
         avatar4: '',
-        rol: 'Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH | Cooperación Alemana al Desarrollo Sustentable en México'
+        rol: 'Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH'
       },
       {
         id: 0,
