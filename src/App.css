@@ -7,7 +7,7 @@
   color: white;
 }
 
-.menu-item:hover {color: rgb(0, 247, 255); }
+.menu-item:hover {color: rgb(2, 73, 252); }
 .navbar-nav .nav-link.active{color: rgb(2, 73, 252);}
 
 .boton-registro{
