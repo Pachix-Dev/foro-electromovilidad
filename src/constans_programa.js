@@ -11,7 +11,7 @@ const programITM = {
         avatar2: '/foro-nearshoring/speakers/BerndRohde.webp',
         avatar3: '/foro-nearshoring/speakers/WolfgangDold.webp',
         avatar4: '/foro-nearshoring/speakers/LuigiChia.webp',
-        rol: 'CEO Italian German Exhibition Company México | Embajador de Alemania | Embajador de Italia '
+        rol: 'CEO Italian German Exhibition Company Mexico | Embajador de Alemania | Embajador de Italia '
       },
       {
         id: 0,
