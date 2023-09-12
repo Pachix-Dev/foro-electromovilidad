@@ -53,7 +53,7 @@ const emailLayout = async (formData, qrcode) => {
                 </p>
                 <ul>
                   <li>
-                    Foro Electromovilidad se lanzará el 6 de octubre a las 7 a. m.
+                    Foro Electromovilidad se lanzará el 6 de octubre a las 9 a. m.
                   </li>
                   <li>
                     Puede acceder al evento en Poliforum León, Guanajuato México.

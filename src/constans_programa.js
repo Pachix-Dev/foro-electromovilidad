@@ -11,7 +11,7 @@ const programITM = {
         avatar2: '/foro-nearshoring/speakers/BerndRohde.webp',
         avatar3: '/foro-nearshoring/speakers/WolfgangDold.webp',
         avatar4: '/foro-nearshoring/speakers/LuigiChia.webp',
-        rol: 'CEO Italian German Exhibition Company Mexico | Embajador de Alemania | Embajador de Italia '
+        rol: 'CEO Italian German Exhibition Company Mexico | Embajador de Alemania en México | Embajador de Italia en México'
       },
       {
         id: 0,
@@ -49,7 +49,7 @@ const programITM = {
         avatar2: '',
         avatar3: '',
         avatar4: '',
-        rol: 'Secretario de Desarrollo Económico Sustentable | Executive Vice President for Smart Infrastructure at Siemens Mexico | Exsecretaria de Comercio Exterior | Ernst & Young Global Specialist'
+        rol: 'Secretario de Desarrollo Económico Sustentable de Guanajuato | Executive Vice President for Smart Infrastructure at Siemens Mexico | Ex secretaria de Comercio Exterior | Ernst & Young Global Specialist'
       },
       {
         id: 1,

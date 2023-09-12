@@ -114,7 +114,7 @@ export function Register () {
               <div className='foro-date'>
                 <div>
                   <p className='border-end'>06<br />
-                    <small>Octubre</small>
+                    <small>octubre</small>
                   </p>
                 </div>
                 <div>
@@ -130,7 +130,7 @@ export function Register () {
             Explorar las últimas tendencias e innovaciones en vehículos eléctricos, conoce expertos en la industria y descubre las claves de la infraestructura de carga del futuro.<br /><br />
             Regístrate ahora y sé parte del cambio hacia un futuro de movilidad eléctrica.
           </p><br />
-          <Button className='boton-registro' href='#registro' variant='danger'>REGISTRATE GRATIS</Button>
+          <Button className='boton-registro' href='#registro' variant='danger'>REGÍSTRATE GRATIS</Button>
         </Container>
       </div>
       <Container className='mt-5'>
@@ -138,13 +138,13 @@ export function Register () {
           <h1>Segmentos de enfoque</h1><br /><br />
           <Row>
             <Col xs={12} md={8} lg={4} className='p-3'><div className='w-100 cont-segmento item-img01'><p className='text-segmento text-start'>Transporte eléctrico</p></div></Col>
-            <Col xs={12} md={8} lg={4} className='p-3'><div className='w-100 cont-segmento item-img02'><p className='text-segmento'>Nuevas plantas de ensamble de autos eléctricos y la conversión de las plantas de combustión interna.</p></div></Col>
-            <Col xs={12} md={8} lg={4} className='p-3'><div className='w-100 cont-segmento item-img03'><p className='text-segmento'>Infraestructura de carga, generación y almacenamiento.</p></div></Col>
+            <Col xs={12} md={8} lg={4} className='p-3'><div className='w-100 cont-segmento item-img02'><p className='text-segmento'>Nuevas plantas de ensamble de autos eléctricos y la conversión de las plantas de combustión interna</p></div></Col>
+            <Col xs={12} md={8} lg={4} className='p-3'><div className='w-100 cont-segmento item-img03'><p className='text-segmento'>Infraestructura de carga, generación y almacenamiento</p></div></Col>
           </Row>
           <Row>
             <Col xs={12} md={8} lg={4} className='p-3'><div className='w-100 cont-segmento item-img04'><p className='text-segmento'>Baterías</p></div></Col>
-            <Col xs={12} md={8} lg={4} className='p-3'><div className='w-100 cont-segmento item-img05'><p className='text-segmento'>Políticas gubernamentales y compromisos contraídos internacionalmente.</p></div></Col>
-            <Col xs={12} md={8} lg={4} className='p-3'><div className='w-100 cont-segmento item-img06'><p className='text-segmento'>Principales productores de semiconductores, y entorno mundial.</p></div></Col>
+            <Col xs={12} md={8} lg={4} className='p-3'><div className='w-100 cont-segmento item-img05'><p className='text-segmento'>Políticas gubernamentales y compromisos contraídos internacionalmente</p></div></Col>
+            <Col xs={12} md={8} lg={4} className='p-3'><div className='w-100 cont-segmento item-img06'><p className='text-segmento'>Principales productores de semiconductores, y entorno mundial</p></div></Col>
           </Row>
         </div>
         <Program />
