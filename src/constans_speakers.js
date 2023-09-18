@@ -89,6 +89,15 @@ const speakers = [
     rol: 'Director general de Voltway',
     avatar: '/foro-electromovilidad/speakers/LorenzoOrtego.webp',
     sketch: 'Lorenzo Ortego Martínez es director general de Voltway y cuenta con más de 12 años de experiencia en el sector de la electromovilidad. Aunque su formación es en el área de tecnologías de la información, se especializó en la electromovilidad haciendo particular énfasis en la infraestructura de recarga. Desde 2010 desarrolló su carrera en Circontrol, empresa pionera en Europa en el diseño y fabricación de cargadores para vehículos eléctricos. Durante este periodo, tuvo como mentor a Joan Hinojo, director general de Circontrol y referente en la industria de la electromovilidad en España y Europa. Asimismo, se desempeñó como director de postventa y atención al cliente y logró transformar el área en una unidad de negocio dando como resultado ser referente de crecimiento en la compañía. Durante su trayectoria, ha liderado proyectos de implantación de infraestructura de recarga por toda Europa, además, ha participado en foros y ensayos de interoperabilidad con algunos de los primeros modelos de vehículos eléctricos asiáticos y europeos. Así como también ha estado involucrado en algunas de las primeras exposiciones especializadas en el mundo. Actualmente, está comprometido con el cambio climático y la sustentabilidad, además de ser un apasionado del vehículo eléctrico y las nuevas tecnologías.'
+  },
+  {
+    id: 11,
+    conference: '',
+    name: 'Takao Nakahata',
+    company: 'JETRO México',
+    rol: 'Director General',
+    avatar: '/foro-electromovilidad/speakers/TakaoNakahata.webp',
+    sketch: 'El Sr. Takao Nakahata es Director General de JETRO México, cuenta con estudios de licenciatura por la Universidad de Sofía en Tokio y dos diplomas por la Universidad Complutense de Madrid. El Sr. Nakahata es especialista en la economía e industria de México y América Latina, en los tratados de libre comercio de América Latina y sus reglas de origen, así como en la industria automotriz de México y América Latina. En 1998 inició su amplia trayectoria en JETRO, desde 2002 hasta 2004 participó como miembro del cuarto de junto para dar asistencia a los negociadores del gobierno japonés durante la negociación del Acuerdo de Asociación Económica entre México y Japón. En 2006 se incorporó a la oficina de JETRO México forjando una larga trayectoria en nuestro país. También es presidente del Comité de Asuntos Fiscales y Aduanales, así como Presidente del Comité de Estudios Económicos de la Cámara Japonesa de Comercio e Industria de México. El Sr. Nakahata ha participado en incontables foros, seminarios y conferencias sobre economía, comercio e inversión, además de haber escrito tres libros en japonés sobre la economía mexicana, y haber colaborado en la elaboración de tres libros más sobre comercio.'
   }
 ]
 export { speakers }
