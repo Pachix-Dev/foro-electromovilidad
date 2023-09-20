@@ -127,8 +127,7 @@ export function Register () {
             </Col>
           </Row>
           <p className='foro-frase mt-4'>¡Descubre el camino hacia una movilidad más inteligente y sostenible en nuestro Foro de Electromovilidad!<br /><br />
-            Explorar las últimas tendencias e innovaciones en vehículos eléctricos, conoce expertos en la industria y descubre las claves de la infraestructura de carga del futuro.<br /><br />
-            Regístrate ahora y sé parte del cambio hacia un futuro de movilidad eléctrica.
+            Explora las últimas tendencias e innovaciones en vehículos eléctricos, conoce y aprende de los expertos en la industria y descubre las claves de la infraestructura de carga del futuro.
           </p><br />
           <Button className='boton-registro' href='#registro' variant='danger'>REGÍSTRATE GRATIS</Button>
         </Container>
