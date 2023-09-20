@@ -19,8 +19,8 @@ const programITM = {
         duration: '45 min',
         event: 'Hacia un transporte eléctrico y de bajas emisiones en México',
         name: 'Josefina Lozano Soto | Isabel von Griesheim',
-        avatar: '',
-        avatar2: '',
+        avatar: '/foro-electromovilidad/speakers/JosefinaLozano.webp',
+        avatar2: '/foro-electromovilidad/speakers/IsabelvonGriesheim.webp',
         avatar3: '',
         avatar4: '',
         rol: 'Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH'
