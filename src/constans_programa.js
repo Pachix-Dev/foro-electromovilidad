@@ -71,7 +71,7 @@ const programITM = {
         duration: '45 min',
         event: 'Hacia dónde va la electromovilidad en el mundo.',
         name: 'José Zozaya',
-        avatar: '',
+        avatar: '/foro-electromovilidad/speakers/JoseGuillermo.webp',
         avatar2: '',
         avatar3: '',
         avatar4: '',
