@@ -58,8 +58,8 @@ const programITM = {
         duration: '45 min',
         event: 'Fabricación de semiconductores en el contexto internacional',
         name: 'Esaú Garza |  Takao Nakahata',
-        avatar: '/foro-electromovilidad/speakers/TakaoNakahata.webp',
-        avatar2: '',
+        avatar: '/foro-electromovilidad/speakers/EsauGarza.webp',
+        avatar2: '/foro-electromovilidad/speakers/TakaoNakahata.webp',
         avatar3: '',
         avatar4: '',
         rol: 'Director General de Alternativas y Soluciones Múltiples del Sureste (ASMS)| Director General JETRO'
