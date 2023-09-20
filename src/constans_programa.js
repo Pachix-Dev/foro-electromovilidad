@@ -32,7 +32,7 @@ const programITM = {
         duration: '45 min',
         event: 'Enfrentado el futuro electrificado, la importancia de la electromovilidad y los semiconductores',
         name: 'Lorenzo Ortego | Armando Cortés',
-        avatar: '/foro-nearshoring/speakers/LorenzoOrtego.webp',
+        avatar: '/foro-electromovilidad/speakers/LorenzoOrtego.webp',
         avatar2: '/foro-nearshoring/speakers/ArmandoCortes.webp',
         avatar3: '',
         avatar4: '',
