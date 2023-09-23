@@ -71,8 +71,8 @@ const programITM = {
         duration: '45 min',
         event: 'Hacia dónde va la electromovilidad en el mundo.',
         name: 'Luis Lozano | José Zozaya | Lorena Isla | Gautier Mignot',
-        avatar: '/foro-electromovilidad/speakers/JoseGuillermo.webp',
-        avatar2: '',
+        avatar: '',
+        avatar2: '/foro-electromovilidad/speakers/JoseGuillermo.webp',
         avatar3: '',
         avatar4: '',
         rol: ' Presidente Toyota Motor México | Presidente Ejecutivo de la Industria Automotriz (AMIA) | Directora de Latin America at Frost & Sullivan | Embajador Consejero Unión Europea'
