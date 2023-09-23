@@ -7,10 +7,11 @@ const programITM = {
         duration: '45 min',
         event: 'Inauguración y bienvenida ',
         name: 'Diego Sinhue Rodríguez Vallejo | Bernd Rohde ',
-        avatar: '',
+        avatar: '/foro-nearshoring/speakers/DiegoSinhue.webp',
         avatar2: '/foro-nearshoring/speakers/BerndRohde.webp',
-        avatar3: '/foro-nearshoring/speakers/WolfgangDold.webp',
+        avatar3: '',
         avatar4: '',
+        avatar5: '',
         rol: 'Gobernador Constitucional del Estado de Guanajuato | CEO Italian German Exhibition Company Mexico'
       },
       {
@@ -22,7 +23,8 @@ const programITM = {
         avatar: '/foro-electromovilidad/speakers/JosefinaLozano.webp',
         avatar2: '/foro-electromovilidad/speakers/CynthiaChavez.webp',
         avatar3: '/foro-electromovilidad/speakers/NicolasRosales.webp',
-        avatar4: '/foro-electromovilidad/speakers/IsabelvonGriesheim.webp',
+        avatar4: '/foro-electromovilidad/speakers/OsvaldoBelmont.webp',
+        avatar5: '/foro-electromovilidad/speakers/IsabelvonGriesheim.webp',
         rol: 'Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH'
       },
       {
@@ -36,6 +38,7 @@ const programITM = {
         avatar2: '/foro-nearshoring/speakers/ArmandoCortes.webp',
         avatar3: '',
         avatar4: '',
+        avatar5: '',
         rol: 'Director General Voltway | Director General INA | Directora de Latin America at Frost & Sullivan'
       },
       {
@@ -49,6 +52,7 @@ const programITM = {
         avatar2: '/foro-electromovilidad/speakers/PaolaGrijalva.webp',
         avatar3: '',
         avatar4: '',
+        avatar5: '',
         rol: 'Secretario de Desarrollo Económico Sustentable de Guanajuato | Executive Vice President for Smart Infrastructure at Siemens Mexico | CEO World trade & Investmente Group'
       },
       {
@@ -62,6 +66,7 @@ const programITM = {
         avatar2: '',
         avatar3: '/foro-electromovilidad/speakers/TakaoNakahata.webp',
         avatar4: '',
+        avatar5: '',
         rol: 'Director General de Alternativas y Soluciones Múltiples del Sureste (ASMS)| Ministro Consejero de la Unión Europea | Director General JETRO'
       },
       {
@@ -75,6 +80,7 @@ const programITM = {
         avatar2: '/foro-electromovilidad/speakers/JoseGuillermo.webp',
         avatar3: '',
         avatar4: '',
+        avatar5: '',
         rol: ' Presidente Toyota Motor México | Presidente Ejecutivo de la Industria Automotriz (AMIA) | Directora de Latin America at Frost & Sullivan | Embajador Consejero Unión Europea'
       }
       // {
