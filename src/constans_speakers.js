@@ -58,8 +58,8 @@ const speakers = [
     id: 7,
     conference: '',
     name: 'José Guillermo Zozaya Délano',
-    company: 'Mexicana de la Industria Automotriz',
-    rol: 'Presidente Ejecutivo de la Asociación',
+    company: 'Asociación Mexicana de La Industria Automotriz (AMIA)',
+    rol: 'Presidente Ejecutivo',
     avatar: '/foro-electromovilidad/speakers/JoseGuillermo.webp',
     sketch: 'El Dr. Zozaya es Presidente Ejecutivo de la Asociación Mexicana de la Industria Automotriz a partir de Agosto del 2020. Fungió como Presidente, Gerente General y Representante Ejecutivo de Kansas City Southern de México, S.A. de C.V. (KCSM),empresa subsidiaria de Kansas City Southern (KCS) (NYSE: KSU), desde Abril del 2006 a Julio del 2020. Cuenta con más de 40 años de experiencia en relaciones gubernamentales, asuntos legales y asuntos internacionales, así como en fusiones y adquisiciones. Previo a ser Presidente Ejecutivo de Kansas City Southern de México, S.A. de C.V. (KCSM), fue Director Jurídico y de Relaciones Gubernamentales de ExxonMobil México, posición que ocupó durante nueve años. Tiene un Doctorado Honoris Causa otorgado por parte de la Academia Mexicana de Derecho Internacional y una Licenciatura en Derecho por la Universidad Iberoamericana. Realizó estudios avanzados en Derecho Corporativo y Competencia Económica en el Instituto Tecnológico Autónomo de México, cursó el programa ejecutivo de Administración de Empresas Internacionales en la Universidad Thunderbird en Arizona, el programa de gestión para abogados en la Universidad de Yale y el curso ejecutivo para miembros del consejo de administración en la Escuela de Negocios de    Harvard. Fue también Presidente de la Asociación Mexicana de Ferrocarriles para el periodo 2020 – 2021; Vicepresidente de CONCAMIN desde 2018, miembro del Consejo de Administración de Afore Siglo XXI, de la empresa Ferrovalle y de Cumbre de Negocios. Desde el 24 de mayo de 2016, fue nombrado Presidente del Consejo Binacional de Directores de la US-Mexico Chamber of Commerce. Fue Presidente del Consejo Mexicano del Transporte (2014 – 2016), Vicepresidente del Consejo Ejecutivo de Empresas Globales (2010 – 2013), Presidente Nacional de la American Chamber durante dos periodos (2010 – 2012), es miembro del Patronato de la Orquesta Sinfónica del Estado de México y miembro del board de Fomento Educacional A.C.'
   },
@@ -98,6 +98,24 @@ const speakers = [
     rol: 'Director General',
     avatar: '/foro-electromovilidad/speakers/TakaoNakahata.webp',
     sketch: 'El Sr. Takao Nakahata es Director General de JETRO México, cuenta con estudios de licenciatura por la Universidad de Sofía, en Tokio, y dos diplomas por la Universidad Complutense de Madrid. El Sr. Nakahata es especialista en la Economía e Industria de México y América Latina, en los tratados de libre comercio de América Latina y sus reglas de origen, así como en la Industria Automotriz de México y América Latina. En 1998 inició su amplia trayectoria en JETRO, desde 2002 hasta 2004 participó como miembro del cuarto de junto para dar asistencia a los negociadores del gobierno japonés durante la negociación del Acuerdo de Asociación Económica entre México y Japón. En 2006, se incorporó a la oficina de JETRO México forjando una larga trayectoria en nuestro país. También es Presidente del Comité de Asuntos Fiscales y Aduanales, así como Presidente del Comité de Estudios Económicos de la Cámara Japonesa de Comercio e Industria de México. El Sr. Nakahata ha participado en incontables foros, seminarios y conferencias sobre economía, comercio e inversión; además, de haber escrito tres libros en japonés sobre la economía mexicana, y haber colaborado en la elaboración de tres libros más sobre comercio.'
+  },
+  {
+    id: 12,
+    conference: '',
+    name: 'Ramón Alfaro Gómez',
+    company: 'Secretaría de Desarrollo Económico Sustentable del Estado de Guanajuato (SDES)',
+    rol: 'Secretario de Desarrolo Económico Sustentable',
+    avatar: '/foro-electromovilidad/speakers/RamonAlfaro.webp',
+    sketch: 'Cuenta en su formación académica complementaria con diversos diplomados, cursos, seminarios y talleres; en temas de Economía, Competitividad, Proyectos de Inversión, Liderazgo y Articulación Productiva. Ha impartido y colaborado en diversos cursos y mesas de trabajo en el ámbito de negocios, adminsitración pública y economía. Actualmente es profesor de tiempo parcial en la Universidad Autónoma de México, Campus León. En la Licenciatura de Economía Industrial. Impartiendo las materias de: Modelo de Negocios, Política de desarrollo Social y Diseño y Evaluación de Políticas Públicas.'
+  },
+  {
+    id: 13,
+    conference: '',
+    name: 'Pola Grijalva',
+    company: 'World trade & Investmente Group',
+    rol: 'CEO',
+    avatar: '/foro-electromovilidad/speakers/PaolaGrijalva.webp',
+    sketch: 'Pola Grijalva, una economista con más de 36 años de experiencia en consultoría para la internacionalización de empresas, es socia fundadora de World Trade and Investment Group, una firma con presencia global en ciudades clave. Su trayectoria se centra en facilitar operaciones comerciales entre América Latina, México, la Unión Europea, América del Norte y Asia. Ha asesorado a empresas líderes en diversas industrias, incluyendo Mattel, Chevron, Huawei y muchas más. Además, Pola ha desempeñado roles destacados en organizaciones clave. Fundó el Centro de Estudios Económicos México-Unión Europea y fue Vicepresidenta Ejecutiva fundadora de la Cámara de Comercio y Tecnología de China en México. Es Auditora Certificada de la Alianza Empresarial para el Comercio Seguro (BASC) en Washington DC. Ha presidido la Cámara de Comercio y Tecnología México-China y ahora lidera el Consejo Asesor de la ChinaCham. En 2020, se convirtió en miembro del Comité de Expertos Comerciales Internacionales del Tribunal Popular Supremo de China. Pola también ha participado en conferencias internacionales y entrevistas con medios de comunicación líderes en América y China. Es una figura respetada en finanzas, fusiones y adquisiciones, comercio internacional e inversión.'
   }
 ]
 export { speakers }
