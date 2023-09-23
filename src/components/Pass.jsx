@@ -70,7 +70,7 @@ export function Pass () {
                     <div className='text-center'>
                       <h2>Foro Electromovilidad</h2>
                       6 de octubre de 2023 9:00 am - 15:30 pm<br />
-                      <img src='/foro-electromovilidad/igeco_bn.webp' alt='igeco' width={300} className='mt-4' />
+                      <img src='/foro-electromovilidad/igeco_bn.webp' alt='igeco' width={200} className='mt-4' />
                     </div>
                   </div>
                 </div>
