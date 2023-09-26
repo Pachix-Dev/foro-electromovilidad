@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Accordion, Container, Nav, Tab, Tabs } from 'react-bootstrap'
+import { Container, Tab, Tabs } from 'react-bootstrap'
 // import { DetailSpeaker } from './DetailSpeaker'
 import { programITM } from '../constans_programa'
 import { speakers } from '../constans_speakers.js'
@@ -73,6 +73,11 @@ export function Program () {
                             program.avatar5 === ''
                               ? ''
                               : <img onClick={() => handleModal(program?.id_s5)} src={program.avatar5} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                          }
+                          {
+                            program.avatar6 === ''
+                              ? ''
+                              : <img onClick={() => handleModal(program?.id_s6)} src={program.avatar6} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
                           }
                         </div>
                       </div>
