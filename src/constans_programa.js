@@ -80,7 +80,7 @@ const programITM = {
         hour: '14:00 hrs',
         duration: '45 min',
         event: 'Hacia dónde va la electromovilidad en el mundo.',
-        name: 'Luis Lozano | José Zozaya | Lorena Isla | Gautier Mignot',
+        name: 'José Zozaya | Lorena Isla | Gautier Mignot',
         avatar: '',
         avatar2: '/foro-electromovilidad/speakers/JoseGuillermo.webp',
         avatar3: '',
