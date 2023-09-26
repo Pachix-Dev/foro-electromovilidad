@@ -83,11 +83,11 @@ const programITM = {
         name: 'José Zozaya | Lorena Isla | Gautier Mignot',
         avatar: '',
         avatar2: '/foro-electromovilidad/speakers/JoseGuillermo.webp',
-        avatar3: '',
+        avatar3: '/foro-electromovilidad/speakers/LorenaIslas.webp',
         avatar4: '',
         avatar5: '',
         avatar6: '',
-        rol: ' Presidente Toyota Motor México | Presidente Ejecutivo de la Industria Automotriz (AMIA) | Directora de Latin America at Frost & Sullivan | Embajador Consejero Unión Europea'
+        rol: 'Presidente Ejecutivo de la Industria Automotriz (AMIA) | Directora de Latin America at Frost & Sullivan | Embajador Consejero Unión Europea'
       }
       // {
       //   id: 0,
