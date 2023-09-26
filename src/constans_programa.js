@@ -38,7 +38,7 @@ const programITM = {
         name: 'Lorenzo Ortego | Armando Cortés | Lorena Isla',
         avatar: '/foro-electromovilidad/speakers/LorenzoOrtego.webp',
         avatar2: '/foro-nearshoring/speakers/ArmandoCortes.webp',
-        avatar3: '',
+        avatar3: '/foro-electromovilidad/speakers/LorenaIslas.webp',
         avatar4: '',
         avatar5: '',
         avatar6: '',
