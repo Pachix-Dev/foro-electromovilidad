@@ -116,6 +116,15 @@ const speakers = [
     rol: 'CEO',
     avatar: '/foro-electromovilidad/speakers/PaolaGrijalva.webp',
     sketch: 'Pola Grijalva, una economista con más de 36 años de experiencia en consultoría para la internacionalización de empresas, es socia fundadora de World Trade and Investment Group, una firma con presencia global en ciudades clave. Su trayectoria se centra en facilitar operaciones comerciales entre América Latina, México, la Unión Europea, América del Norte y Asia. Ha asesorado a empresas líderes en diversas industrias, incluyendo Mattel, Chevron, Huawei y muchas más. Además, Pola ha desempeñado roles destacados en organizaciones clave. Fundó el Centro de Estudios Económicos México-Unión Europea y fue Vicepresidenta Ejecutiva fundadora de la Cámara de Comercio y Tecnología de China en México. Es Auditora Certificada de la Alianza Empresarial para el Comercio Seguro (BASC) en Washington DC. Ha presidido la Cámara de Comercio y Tecnología México-China y ahora lidera el Consejo Asesor de la ChinaCham. En 2020, se convirtió en miembro del Comité de Expertos Comerciales Internacionales del Tribunal Popular Supremo de China. Pola también ha participado en conferencias internacionales y entrevistas con medios de comunicación líderes en América y China. Es una figura respetada en finanzas, fusiones y adquisiciones, comercio internacional e inversión.'
+  },
+  {
+    id: 14,
+    conference: '',
+    name: 'Lorena Isla',
+    company: 'Frost & Sullivan',
+    rol: 'Directora de Latin America ',
+    avatar: '/foro-electromovilidad/speakers/LorenaIslas.webp',
+    sketch: 'Egresada de la carrera de Economía por el ITAM, tiene más de 22 años de experiencia como consultora y Directora de Investigación en la firma Frost & Sullivan, además colaboró en roles de liderazgo para las firmas Estrategia y Análisis Económico Consultores S.C., y Aspel Corporation. Fungió como Directora de Participación en el Proyecto del Corredor Interoceánico del Istmo de Tehuantepec, uno de los tres proyectos líderes de la administración del Presidente de México, Andrés Manuel López Obrador. Tiene 20 años de experiencia operativa y de desarrollo empresarial, incluidos más de 90 proyectos de consultoría y varios actos y conferencias.'
   }
 ]
 export { speakers }
