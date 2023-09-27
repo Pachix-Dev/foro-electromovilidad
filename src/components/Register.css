@@ -1,0 +1,7 @@
+.evento-info{
+    background-image: url('/foro-electromovilidad/bgElectromovilidad.webm');
+    background-size: 100vw 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

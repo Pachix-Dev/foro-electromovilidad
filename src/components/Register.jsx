@@ -10,6 +10,7 @@ import { speakers } from '../constans_speakers'
 import { DetailSpeaker } from './DetailSpeaker'
 import { Program } from './Program'
 import { Menu } from './Menu'
+import './Register.css'
 
 const ReCAPTCHA = lazy(() => import('react-google-recaptcha'))
 
@@ -101,7 +102,7 @@ export function Register () {
     <>
       <Menu />
       <div className='pb-5 evento-info'>
-        <video className='bg-electromovilidad mb-5' autoPlay muted loop src='/foro-electromovilidad/bgElectromovilidad.webm' />
+        {/* <video className='bg-electromovilidad mb-5' autoPlay muted loop src='/foro-electromovilidad/bgElectromovilidad.webm' /> */}
         <Container className='pt-5 mb-3 electromovilidad-text'>
           <center><h1 className='fw-bold pb-4'>Foro de Electromovilidad 2023</h1></center>
           <Row>
