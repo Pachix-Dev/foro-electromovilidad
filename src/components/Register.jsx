@@ -133,7 +133,7 @@ export function Register () {
         </Container>
       </div>
       <Container className='mt-5'>
-        <div>
+        <div className='my-5'>
           <h1>Segmentos de enfoque</h1><br /><br />
           <Row>
             <Col xs={12} md={8} lg={4} className='p-3'><div className='w-100 cont-segmento item-img01'><p className='text-segmento text-start'>Transporte eléctrico</p></div></Col>
