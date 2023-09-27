@@ -101,8 +101,8 @@ export function Register () {
     <>
       <Menu />
       <div className='pb-5'>
-        <video className='bg-electromovilidad' autoPlay muted loop src='/foro-electromovilidad/bgElectromovilidad.webm' />
         <Container className='pt-5 mb-3 electromovilidad-text'>
+          <video className='bg-electromovilidad' autoPlay muted loop src='/foro-electromovilidad/bgElectromovilidad.webm' />
           <center><h1 className='fw-bold pb-4'>Foro de Electromovilidad 2023</h1></center>
           <Row>
             <Col className='py-4'>
