@@ -100,7 +100,7 @@ export function Register () {
   return (
     <>
       <Menu />
-      <div className='pb-5'>
+      <div className='pb-5 mb-5'>
         <video className='bg-electromovilidad' autoPlay muted loop src='/foro-electromovilidad/bgElectromovilidad.webm' />
         <Container className='pt-5 mb-3 electromovilidad-text'>
           <center><h1 className='fw-bold pb-4'>Foro de Electromovilidad 2023</h1></center>
@@ -132,7 +132,7 @@ export function Register () {
           <Button className='boton-registro' href='#registro' variant='danger'>REGÍSTRATE GRATIS</Button>
         </Container>
       </div>
-      <Container className=''>
+      <Container className='mt-5'>
         <div>
           <h1>Segmentos de enfoque</h1><br /><br />
           <Row>
