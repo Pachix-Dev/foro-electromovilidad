@@ -134,6 +134,15 @@ const speakers = [
     rol: 'Asesor Técnico',
     avatar: '/foro-electromovilidad/speakers/FanciscoAnda.webp',
     sketch: 'Licenciado en Diseño Industrial por la Universidad Anáhuac México Norte y Maestría en Mercadotecnia y Publicidad por la misma institución. Fundador de la primera organización civil de seguridad vial del país, Movilidad y Desarrollo México (MDM). Es especialista en seguridad vial con enfoque sistémico. Ha colaborado con la Organización Panamericana de la Salud, el Consejo Nacional para la Prevención de Accidentes de la Secretaría de Salud y la Alianza Global de Seguridad Vial (GRSP). Fue asesor para la Ley General de Movilidad y Seguridad Vial a través del Senado de la República. Actualmente es Asesor en Materia de Transporte en la Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH, la Cooperación Técnica Alemana, en México para el proyecto Transición hacia un Sistema Integrado e Inteligente de Transporte Público en México (TranSIT) en la ciudad de León, Guanajuato.'
+  },
+  {
+    id: 16,
+    conference: '',
+    name: 'Marco Cosío',
+    company: 'Smart Infrastructure Siemens México Centroamérica y el Caribe',
+    rol: 'Vicepresidente',
+    avatar: '/foro-electromovilidad/speakers/MarcoCosio.webp',
+    sketch: 'Marco cuenta con una amplia trayectoria de más de 17 años en la industria eléctrica. Ha desempeñado diversos cargos directivos en Siemens como director de la unidad de negocio de mediano voltaje, así como CEO de Centro América de 2014 a 2019. Es Ingeniero Industrial, graduado en la Universidad las Américas Puebla. Actualmente es el Vicepresidente de Smart Infrastructure en Siemens México, Centroamérica y el Caribe cargo que asumió el 1 de marzo de 2019.'
   }
 ]
 export { speakers }

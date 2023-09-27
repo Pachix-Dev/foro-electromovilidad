@@ -52,12 +52,12 @@ const programITM = {
         event: 'Colaboración público privada para el éxito de la electromovilidad',
         name: 'Ramón Alfaro | Marco Cosío | Pola Grijalva',
         avatar: '/foro-electromovilidad/speakers/RamonAlfaro.webp',
-        avatar2: '/foro-electromovilidad/speakers/PaolaGrijalva.webp',
-        avatar3: '',
+        avatar2: '/foro-electromovilidad/speakers/MarcoCosio.webp',
+        avatar3: '/foro-electromovilidad/speakers/PaolaGrijalva.webp',
         avatar4: '',
         avatar5: '',
         avatar6: '',
-        rol: 'Secretario de Desarrollo Económico Sustentable de Guanajuato | Executive Vice President for Smart Infrastructure at Siemens Mexico | CEO World trade & Investmente Group'
+        rol: 'Secretario de Desarrollo Económico Sustentable de Guanajuato | Vicepresidente Smart Infrastructure Siemens México Centroamérica y el Caribe | CEO World trade & Investmente Group'
       },
       {
         id: 1,
