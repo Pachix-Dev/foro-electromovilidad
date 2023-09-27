@@ -20,7 +20,7 @@ const programITM = {
         hour: '09:55 hrs',
         duration: '45 min',
         event: 'Hacia un transporte eléctrico y de bajas emisiones en México',
-        name: 'Cynthia Chavéz Ríos | Josefina Lozano Soto  | Nicolás Rosales Pallares | Osvaldo Belmont Reyes | Alejandro Saniger Alba | ',
+        name: 'Cynthia Chavéz Ríos | Josefina Lozano Soto  | Nicolás Rosales Pallares | Osvaldo Belmont Reyes | Alejandro Saniger Alba | Francisco De Anda Orellana ',
         avatar: '/foro-electromovilidad/speakers/CynthiaChavez.webp',
         avatar2: '/foro-electromovilidad/speakers/JosefinaLozano.webp',
         avatar3: '/foro-electromovilidad/speakers/NicolasRosales.webp',
