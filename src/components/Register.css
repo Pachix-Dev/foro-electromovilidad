@@ -1,7 +1,7 @@
-.evento-info{
-   
-}
 
-.bg-electromovilidad{
-   
-}
+@media (min-width: 1024px) {
+    .evento-info{
+        margin-bottom: 120px;
+    }
+  }
+
