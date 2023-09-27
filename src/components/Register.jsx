@@ -132,7 +132,7 @@ export function Register () {
           <Button className='boton-registro' href='#registro' variant='danger'>REGÍSTRATE GRATIS</Button>
         </Container>
       </div>
-      <Container className='pt-5'>
+      <Container className='mt-5'>
         <div className='my-5'>
           <h1>Segmentos de enfoque</h1><br /><br />
           <Row>
