@@ -101,39 +101,40 @@ export function Register () {
   return (
     <>
       <Menu />
-      <video className='bg-electromovilidad mb-5' autoPlay muted loop src='/foro-electromovilidad/bgElectromovilidad.webm' />
-      <Container className='pt-5 mb-3 electromovilidad-text'>
-        <center><h1 className='fw-bold pb-4'>Foro de Electromovilidad 2023</h1></center>
-        <Row>
-          <Col className='py-4'>
-            <h2 className='mt-1'>¡Sé parte del foro más importante de la industria en Guanajuato!</h2>
-          </Col>
-        </Row>
-        <Row>
-          <Col className=''>
-            <div className='foro-date'>
-              <div>
-                <p className='border-end'>06<br />
-                  <small>octubre</small>
-                </p>
+      <div className='vh-100'>
+        <video className='bg-electromovilidad' autoPlay muted loop src='/foro-electromovilidad/bgElectromovilidad.webm' />
+        <Container className='pt-5 mb-3 electromovilidad-text'>
+          <center><h1 className='fw-bold pb-4'>Foro de Electromovilidad 2023</h1></center>
+          <Row>
+            <Col className='py-4'>
+              <h2 className='mt-1'>¡Sé parte del foro más importante de la industria en Guanajuato!</h2>
+            </Col>
+          </Row>
+          <Row>
+            <Col className=''>
+              <div className='foro-date'>
+                <div>
+                  <p className='border-end'>06<br />
+                    <small>octubre</small>
+                  </p>
+                </div>
+                <div>
+                  <p className='border-end'>09:00 - 15:30<br /><small>HRS</small></p>
+                </div>
+                <div>
+                  <p>POLIFORUM<br /><small>LEÓN</small></p>
+                </div>
               </div>
-              <div>
-                <p className='border-end'>09:00 - 15:30<br /><small>HRS</small></p>
-              </div>
-              <div>
-                <p>POLIFORUM<br /><small>LEÓN</small></p>
-              </div>
-            </div>
-          </Col>
-        </Row>
-        <p className='foro-frase mt-4'>¡Descubre el camino hacia una movilidad más inteligente y sostenible en nuestro Foro de Electromovilidad!<br /><br />
-          Explora las últimas tendencias e innovaciones en vehículos eléctricos, conoce y aprende de los expertos en la industria y descubre las claves de la infraestructura de carga del futuro.
-        </p><br />
-        <Button className='boton-registro' href='#registro' variant='danger'>REGÍSTRATE GRATIS</Button>
-      </Container>
-
+            </Col>
+          </Row>
+          <p className='foro-frase mt-4'>¡Descubre el camino hacia una movilidad más inteligente y sostenible en nuestro Foro de Electromovilidad!<br /><br />
+            Explora las últimas tendencias e innovaciones en vehículos eléctricos, conoce y aprende de los expertos en la industria y descubre las claves de la infraestructura de carga del futuro.
+          </p><br />
+          <Button className='boton-registro' href='#registro' variant='danger'>REGÍSTRATE GRATIS</Button>
+        </Container>
+      </div>
       <Container className='mt-5'>
-        <div className='my-5'>
+        <div className='my-5 pt-3'>
           <h1>Segmentos de enfoque</h1><br /><br />
           <Row>
             <Col xs={12} md={8} lg={4} className='p-3'><div className='w-100 cont-segmento item-img01'><p className='text-segmento text-start'>Transporte eléctrico</p></div></Col>
