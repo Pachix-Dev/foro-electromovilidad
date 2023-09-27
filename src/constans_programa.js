@@ -20,13 +20,13 @@ const programITM = {
         hour: '09:55 hrs',
         duration: '45 min',
         event: 'Hacia un transporte eléctrico y de bajas emisiones en México',
-        name: 'Josefina Lozano Soto | Cynthia Chavéz Ríos | Nicolás Rosales Pallares | Osvaldo Belmont Reyes | Alejandro Saniger Alba | Isabel von Griesheim',
-        avatar: '/foro-electromovilidad/speakers/JosefinaLozano.webp',
-        avatar2: '/foro-electromovilidad/speakers/CynthiaChavez.webp',
+        name: 'Cynthia Chavéz Ríos | Josefina Lozano Soto  | Nicolás Rosales Pallares | Osvaldo Belmont Reyes | Alejandro Saniger Alba | ',
+        avatar: '/foro-electromovilidad/speakers/CynthiaChavez.webp',
+        avatar2: '/foro-electromovilidad/speakers/JosefinaLozano.webp',
         avatar3: '/foro-electromovilidad/speakers/NicolasRosales.webp',
         avatar4: '/foro-electromovilidad/speakers/OsvaldoBelmont_edit.webp',
         avatar5: '/foro-electromovilidad/speakers/AlejandroSaniger.webp',
-        avatar6: '/foro-electromovilidad/speakers/IsabelvonGriesheim.webp',
+        avatar6: '/foro-electromovilidad/speakers/FanciscoAnda.webp',
         rol: 'Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH'
       },
       {

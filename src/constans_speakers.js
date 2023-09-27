@@ -125,6 +125,15 @@ const speakers = [
     rol: 'Directora de Latin America ',
     avatar: '/foro-electromovilidad/speakers/LorenaIslas.webp',
     sketch: 'Egresada de la carrera de Economía por el ITAM, tiene más de 22 años de experiencia como consultora y Directora de Investigación en la firma Frost & Sullivan, además colaboró en roles de liderazgo para las firmas Estrategia y Análisis Económico Consultores S.C., y Aspel Corporation. Fungió como Directora de Participación en el Proyecto del Corredor Interoceánico del Istmo de Tehuantepec, uno de los tres proyectos líderes de la administración del Presidente de México, Andrés Manuel López Obrador. Tiene 20 años de experiencia operativa y de desarrollo empresarial, incluidos más de 90 proyectos de consultoría y varios actos y conferencias.'
+  },
+  {
+    id: 15,
+    conference: '',
+    name: 'Francisco De Anda Orellana',
+    company: 'GIZ México',
+    rol: 'Asesor Técnico',
+    avatar: '/foro-electromovilidad/speakers/FanciscoAnda.webp',
+    sketch: 'Licenciado en Diseño Industrial por la Universidad Anáhuac México Norte y Maestría en Mercadotecnia y Publicidad por la misma institución. Fundador de la primera organización civil de seguridad vial del país, Movilidad y Desarrollo México (MDM). Es especialista en seguridad vial con enfoque sistémico. Ha colaborado con la Organización Panamericana de la Salud, el Consejo Nacional para la Prevención de Accidentes de la Secretaría de Salud y la Alianza Global de Seguridad Vial (GRSP). Fue asesor para la Ley General de Movilidad y Seguridad Vial a través del Senado de la República. Actualmente es Asesor en Materia de Transporte en la Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH, la Cooperación Técnica Alemana, en México para el proyecto Transición hacia un Sistema Integrado e Inteligente de Transporte Público en México (TranSIT) en la ciudad de León, Guanajuato.'
   }
 ]
 export { speakers }
