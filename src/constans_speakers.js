@@ -35,15 +35,15 @@ const speakers = [
     avatar: '/foro-electromovilidad/speakers/AlejandroSaniger.webp',
     sketch: 'Actualmente, se desempeña como Gerente de Movilidad Urbana en Robert Bosch México, especializándose en temas de nueva movilidad (movilidad eléctrica, como servicio, autónoma), sostenibilidad, simulación y modelación de transporte, y estimación de emisiones vehiculares. Su experiencia laboral incluye cargos como Gerente Técnico en PTV Group para América Latina (2012 - 2018), empresa internacional basada en Karlsruhe, Alemania, especializada en desarrollo de softwares para modelación y simulación transporte; y anteriormente fungió como consultor en transporte y movilidad entre 2005 y 2012. Es Ingeniero Civil por la UNAM, y cuenta con una Maestría en Ingeniería y Planeación de Transporte cursada en University of Leeds, en Reino Unido. Paralelamente, desde 2014 ha impartido las clases de ‘Ingeniería de Tránsito’ y ‘Transporte Sustentable y Tecnología’.'
   },
-  {
-    id: 5,
-    conference: 'Equidad e innovación: el rol vital de la mujer en la industria',
-    name: 'Isabel von Griesheim',
-    company: 'GIZ México',
-    rol: 'Directora de Proyecto',
-    avatar: '/foro-electromovilidad/speakers/IsabelvonGriesheim.webp',
-    sketch: 'Actual Directora de TranSIT, proyecto de la Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH, la Cooperación Técnica Alemana, para promover un transporte público inteligente, inclusivo y amigable con el clima en México. Ha trabajado para esta organización por diez años en diversas temáticas y países. Entre 2019 y 2021, fue Directora regional de dos proyectos de energía en Centroamérica, enfocándose en el fomento de la electromovilidad. En 2015, trabajó como Asesora para proyectos globales sobre mitigación del cambio climático y financiamiento climático, centrándose en el comercio de emisiones. Inició sus pasos en la GIZ como Gerente de Proyecto para la cartera de clima y energía en Bruselas, Bélgica. Anteriormente, trabajó en el Parlamento Europeo y en la Fundación Konrad Adenauer. Tiene una maestría en Economía Política Internacional de la Escuela de Economía de Londres (LSE, por sus siglas en inglés) y una maestría en Gestión Pública del Instituto de Estudios Políticos de París (Sciences Po Paris).'
-  },
+  // {
+  //   id: 5,
+  //   conference: 'Equidad e innovación: el rol vital de la mujer en la industria',
+  //   name: 'Isabel von Griesheim',
+  //   company: 'GIZ México',
+  //   rol: 'Directora de Proyecto',
+  //   avatar: '/foro-electromovilidad/speakers/IsabelvonGriesheim.webp',
+  //   sketch: 'Actual Directora de TranSIT, proyecto de la Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH, la Cooperación Técnica Alemana, para promover un transporte público inteligente, inclusivo y amigable con el clima en México. Ha trabajado para esta organización por diez años en diversas temáticas y países. Entre 2019 y 2021, fue Directora regional de dos proyectos de energía en Centroamérica, enfocándose en el fomento de la electromovilidad. En 2015, trabajó como Asesora para proyectos globales sobre mitigación del cambio climático y financiamiento climático, centrándose en el comercio de emisiones. Inició sus pasos en la GIZ como Gerente de Proyecto para la cartera de clima y energía en Bruselas, Bélgica. Anteriormente, trabajó en el Parlamento Europeo y en la Fundación Konrad Adenauer. Tiene una maestría en Economía Política Internacional de la Escuela de Economía de Londres (LSE, por sus siglas en inglés) y una maestría en Gestión Pública del Instituto de Estudios Políticos de París (Sciences Po Paris).'
+  // },
   {
     id: 6,
     conference: 'Mejores prácticas de inclusión de mujeres en las empresas',
