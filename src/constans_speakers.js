@@ -104,7 +104,7 @@ const speakers = [
     conference: '',
     name: 'Ramón Alfaro Gómez',
     company: 'Secretaría de Desarrollo Económico Sustentable del Estado de Guanajuato (SDES)',
-    rol: 'Secretario de Desarrolo Económico Sustentable',
+    rol: 'Secretario de Desarrollo Económico Sustentable',
     avatar: '/foro-electromovilidad/speakers/RamonAlfaro.webp',
     sketch: 'Cuenta en su formación académica complementaria con diversos diplomados, cursos, seminarios y talleres; en temas de Economía, Competitividad, Proyectos de Inversión, Liderazgo y Articulación Productiva. Ha impartido y colaborado en diversos cursos y mesas de trabajo en el ámbito de negocios, adminsitración pública y economía. Actualmente es profesor de tiempo parcial en la Universidad Autónoma de México, Campus León. En la Licenciatura de Economía Industrial. Impartiendo las materias de: Modelo de Negocios, Política de desarrollo Social y Diseño y Evaluación de Políticas Públicas.'
   },
