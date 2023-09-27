@@ -23,7 +23,7 @@ const speakers = [
     name: 'Osvaldo Belmont Reyes',
     company: 'Asociación Mexicana de la Industria Automotriz (AMIA)',
     rol: 'Director Técnico',
-    avatar: '/foro-electromovilidad/speakers/OsvaldoBelmont.webp',
+    avatar: '/foro-electromovilidad/speakers/OsvaldoBelmont_edit.webp',
     resume: 'Es ingeniero químico industrial egresado del Instituto Politécnico Nacional. Es Director Técnico en la Asociación Mexicana de la Industria Automotriz (AMIA), con 10 años de experiencia en la industria automotriz, responsable de la agenda de temas técnicos automotrices, de electromovilidad y sustentabilidad. Ha sido funcionario público en la SEMARNAT, en temas de residuos peligrosos y sustancias químicas. También, ha sido consultor para la USAID en proyectos de prevención de la contaminación. Cuenta con diversos diplomados en ingeniería de proyectos, desarrollo sostenible e infraestructura de la calidad, entre otros.'
   },
   {

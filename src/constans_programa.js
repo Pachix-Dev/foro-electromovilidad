@@ -24,7 +24,7 @@ const programITM = {
         avatar: '/foro-electromovilidad/speakers/JosefinaLozano.webp',
         avatar2: '/foro-electromovilidad/speakers/CynthiaChavez.webp',
         avatar3: '/foro-electromovilidad/speakers/NicolasRosales.webp',
-        avatar4: '/foro-electromovilidad/speakers/OsvaldoBelmont.webp',
+        avatar4: '/foro-electromovilidad/speakers/OsvaldoBelmont_edit.webp',
         avatar5: '/foro-electromovilidad/speakers/AlejandroSaniger.webp',
         avatar6: '/foro-electromovilidad/speakers/IsabelvonGriesheim.webp',
         rol: 'Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH'
