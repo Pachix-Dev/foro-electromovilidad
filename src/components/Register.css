@@ -1,5 +1,10 @@
 
-@media (min-width: 1024px) {
+.bg-electromovilidad{
+    height: 80%;
+}
+
+
+@media screen and (min-width: 1024px) {
     .evento-info{
         margin-bottom: 120px;
     }
