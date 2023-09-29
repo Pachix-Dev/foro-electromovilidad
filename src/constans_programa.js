@@ -84,10 +84,10 @@ const programITM = {
         avatar: '',
         avatar2: '/foro-electromovilidad/speakers/JoseGuillermo.webp',
         avatar3: '/foro-electromovilidad/speakers/LorenaIslas.webp',
-        avatar4: '',
+        avatar4: '/foro-electromovilidad/speakers/GautierMignot.webp',
         avatar5: '',
         avatar6: '',
-        rol: 'Presidente Ejecutivo de la Industria Automotriz (AMIA) | Directora de Latin America at Frost & Sullivan | Embajador Consejero Unión Europea'
+        rol: 'Presidente Ejecutivo de la Industria Automotriz (AMIA) | Directora de Latin America at Frost & Sullivan | Embajador Consejero de la Unión Europea en México'
       }
       // {
       //   id: 0,
