@@ -67,7 +67,7 @@ const programITM = {
         event: 'Fabricación de semiconductores en el contexto internacional',
         name: 'Esaú Garza |  Jorge Peydro Aznar | Takao Nakahata',
         avatar: '/foro-electromovilidad/speakers/EsauGarza.webp',
-        avatar2: '',
+        avatar2: '/foro-electromovilidad/speakers/JorgeAznar.webp',
         avatar3: '/foro-electromovilidad/speakers/TakaoNakahata.webp',
         avatar4: '',
         avatar5: '',
