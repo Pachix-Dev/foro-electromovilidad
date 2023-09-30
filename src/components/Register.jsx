@@ -130,7 +130,7 @@ export function Register () {
           <p className='foro-frase mt-4'>¡Descubre el camino hacia una movilidad más inteligente y sostenible en nuestro Foro de Electromovilidad!<br /><br />
             Explora las últimas tendencias e innovaciones en vehículos eléctricos, conoce y aprende de los expertos en la industria y descubre las claves de la infraestructura de carga del futuro.
           </p><br />
-          <Button className='boton-registro' href='#registro' variant='danger'>REGÍSTRATE GRATIS</Button>
+          <Button className='boton-registro' href='#registro' variant='danger'>REGÍSTRATE AHORA</Button>
         </Container>
       </div>
       <Container className='mt-5'>
@@ -252,7 +252,7 @@ export function Register () {
           <Button variant='light' type='submit' className='mt-3 fw-bold'>
             {sendStatus
               ? <><Spinner as='span' animation='border' size='sm' role='status' aria-hidden='true' /><span> Loading...</span></>
-              : 'Obtén pase gratis'}
+              : 'OBTENER PASE'}
           </Button>
         </Form>
       </Container>
