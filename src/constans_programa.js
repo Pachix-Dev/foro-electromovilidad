@@ -7,7 +7,7 @@ const programITM = {
         duration: '45 min',
         event: 'Inauguración y bienvenida ',
         name: 'Diego Sinhue Rodríguez Vallejo | Bernd Rohde ',
-        // avatar: '/foro-nearshoring/speakers/DiegoSinhue.webp',
+        avatar: '',
         avatar2: '/foro-nearshoring/speakers/BerndRohde.webp',
         avatar3: '',
         avatar4: '',
