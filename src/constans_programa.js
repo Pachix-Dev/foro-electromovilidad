@@ -68,9 +68,9 @@ const programITM = {
         name: 'Esaú Garza | Takao Nakahata | Paola Grijalva | Lorena Islas ',
         avatar: '/foro-electromovilidad/speakers/EsauGarza.webp',
         avatar1: '/foro-electromovilidad/speakers/TakaoNakahata.webp',
-        avatar2: '/foro-electromovilidad/speakers/PaolaGrijalva.webp',
-        avatar3: '/foro-electromovilidad/speakers/LorenaIslas.webp',
-        avatar4: '',
+        avatar2: '/foro-electromovilidad/speakers/TakaoNakahata.webp',
+        avatar3: '/foro-electromovilidad/speakers/PaolaGrijalva.webp',
+        avatar4: '/foro-electromovilidad/speakers/LorenaIslas.webp',
         avatar5: '',
         avatar6: '',
         rol: 'CEO ASMS |  Director General JETRO | Precidenta del Consejo de Administración World Trade & Investment Group | Moderador'
