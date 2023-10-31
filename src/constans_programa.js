@@ -84,7 +84,7 @@ const programITM = {
         name: ' Osvaldo Belmont | Lorena Isla | Esaú Garza',
         avatar: '/foro-electromovilidad/speakers/OsvaldoBelmont_edit.webp',
         avatar1: '/foro-electromovilidad/speakers/LorenaIslas.webp',
-        avatar2: '/foro-electromovilidad/speakers/EsauGarza.webp',
+        avatar2: '/foro-electromovilidad/speakers/LorenaIslas.webp',
         avatar3: '/foro-electromovilidad/speakers/EsauGarza.webp',
         avatar4: '',
         avatar5: '',
