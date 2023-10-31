@@ -82,10 +82,10 @@ const programITM = {
         duration: '45 min',
         event: 'Hacia dónde va la electromovilidad en el mundo.',
         name: ' Osvaldo Belmont | Lorena Islas | Esaú Garza',
-        avatar: '',
+        avatar: 'foro-electromovilidad/speakers/LorenaIslas.webp',
         avatar1: '',
-        avatar2: 'foro-electromovilidad/speakers/LorenaIslas.webp',
-        avatar3: '/',
+        avatar2: '',
+        avatar3: '',
         avatar4: '',
         avatar5: '',
         rol: 'Presidente Ejecutivo de la Industria Automotriz (AMIA) | Directora de Latin America at Frost & Sullivan | Moderador'
