@@ -88,6 +88,7 @@ const programITM = {
         avatar3: '',
         avatar4: '',
         avatar5: '',
+        avatar6: '',
         rol: 'Presidente Ejecutivo de la Industria Automotriz (AMIA) | Directora de Latin America at Frost & Sullivan | Moderador'
       }
       // {
