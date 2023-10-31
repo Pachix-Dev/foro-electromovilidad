@@ -107,11 +107,11 @@ export function Register () {
           <center><h1 className='fw-bold pb-4'>Foro de Electromovilidad 2023</h1></center>
           <Row>
             <Col className='py-4'>
-              <h2 className='mt-1'>¡Sé parte del foro más importante de la industria en Guanajuato!</h2>
+              <h2 className='mt-1'>¡El foro más importante de la industria en Guanajuato!</h2>
             </Col>
           </Row>
           <Row>
-            <Col className=''>
+            {/* <Col className=''>
               <div className='foro-date'>
                 <div>
                   <p className='border-end'>06<br />
@@ -125,12 +125,12 @@ export function Register () {
                   <p>POLIFORUM<br /><small>LEÓN</small></p>
                 </div>
               </div>
-            </Col>
+            </Col> */}
           </Row>
           <p className='foro-frase mt-4'>¡Descubre el camino hacia una movilidad más inteligente y sostenible en nuestro Foro de Electromovilidad!<br /><br />
             Explora las últimas tendencias e innovaciones en vehículos eléctricos, conoce y aprende de los expertos en la industria y descubre las claves de la infraestructura de carga del futuro.
           </p><br />
-          <Button className='boton-registro' href='#registro' variant='danger'>REGÍSTRATE AHORA</Button>
+          {/* <Button className='boton-registro' href='#registro' variant='danger'>REGÍSTRATE AHORA</Button> */}
         </Container>
       </div>
       <Container className='mt-5'>
@@ -170,7 +170,7 @@ export function Register () {
           onHide={() => setModalShow(false)}
           speaker={detailSpeaker}
         />
-        <h1 id='registro' className='mt-5 text-light'>Registro</h1>
+        <h1 id='registro' className='mt-5 text-light'>Contáctanos</h1>
         <Form className='mt-5' id='form-newsletter' onSubmit={handleSubmit}>
           <Row>
             <Col>
@@ -252,7 +252,7 @@ export function Register () {
           <Button variant='light' type='submit' className='mt-3 fw-bold'>
             {sendStatus
               ? <><Spinner as='span' animation='border' size='sm' role='status' aria-hidden='true' /><span> Loading...</span></>
-              : 'OBTENER PASE'}
+              : 'ENVIAR'}
           </Button>
         </Form>
       </Container>
