@@ -85,7 +85,7 @@ const programITM = {
         avatar: '/foro-electromovilidad/speakers/OsvaldoBelmont_edit.webp',
         avatar1: '/foro-electromovilidad/speakers/LorenaIslas.webp',
         avatar2: '/foro-electromovilidad/speakers/EsauGarza.webp',
-        avatar3: '',
+        avatar3: '/foro-electromovilidad/speakers/EsauGarza.webp',
         avatar4: '',
         avatar5: '',
         avatar6: '',
