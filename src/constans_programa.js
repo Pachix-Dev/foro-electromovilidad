@@ -6,28 +6,28 @@ const programITM = {
         hour: '09:30 hrs',
         duration: '45 min',
         event: 'Inauguración y bienvenida ',
-        name: 'Diego Sinhue Rodríguez Vallejo | Bernd Rohde ',
+        name: 'Ramón Alfaro | Bernd Rohde | Armando Cortés | Lorenzo Ortego',
         avatar: '',
         avatar2: '/foro-nearshoring/speakers/BerndRohde.webp',
         avatar3: '',
         avatar4: '',
         avatar5: '',
         avatar6: '',
-        rol: 'Gobernador Constitucional del Estado de Guanajuato | CEO Italian German Exhibition Company Mexico'
+        rol: 'Secretario de Desarrollo Económico Sustentable | CEO Italian German Exhibition Company Mexico | Director General INA | CEO Voltway'
       },
       {
         id: 0,
         hour: '09:55 hrs',
         duration: '45 min',
         event: 'Hacia un transporte eléctrico y de bajas emisiones en México',
-        name: 'Cynthia Chavéz Ríos | Nicolás Rosales Pallares | Osvaldo Belmont Reyes | Alejandro Saniger Alba | Josefina Lozano Soto | Francisco De Anda Orellana ',
-        avatar: '/foro-electromovilidad/speakers/CynthiaChavez.webp',
-        avatar2: '/foro-electromovilidad/speakers/NicolasRosales.webp',
-        avatar3: '/foro-electromovilidad/speakers/OsvaldoBelmont_edit.webp',
-        avatar4: '/foro-electromovilidad/speakers/AlejandroSaniger.webp',
-        avatar5: '/foro-electromovilidad/speakers/JosefinaLozano.webp',
+        name: 'Josefina Lozano Soto | Cynthia Chavéz Ríos | Nicolás Rosales Pallares | Osvaldo Belmont Reyes | Alejandro Saniger Alba | Francisco De Anda Orellana',
+        avatar: '/foro-electromovilidad/speakers/JosefinaLozano.webp',
+        avatar2: '/foro-electromovilidad/speakers/CynthiaChavez.webp',
+        avatar3: '/foro-electromovilidad/speakers/NicolasRosales.webp',
+        avatar4: '/foro-electromovilidad/speakers/OsvaldoBelmont_edit.webp',
+        avatar5: '/foro-electromovilidad/speakers/AlejandroSaniger.webp',
         avatar6: '/foro-electromovilidad/speakers/FanciscoAnda.webp',
-        rol: 'Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH'
+        rol: 'Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH | Moderador'
       },
       {
         id: 0,
@@ -35,14 +35,14 @@ const programITM = {
         hour: '10:55 hrs',
         duration: '45 min',
         event: 'Enfrentado el futuro electrificado, la importancia de la electromovilidad y los semiconductores',
-        name: 'Lorenzo Ortego | Armando Cortés | Lorena Isla',
+        name: 'Jorge Peydro Aznar | Lorenzo Ortego | Armando Cortés | Lorena Isla | Ignacio López Valdominos',
         avatar: '/foro-electromovilidad/speakers/LorenzoOrtego.webp',
         avatar2: '/foro-nearshoring/speakers/ArmandoCortes.webp',
         avatar3: '/foro-electromovilidad/speakers/LorenaIslas.webp',
         avatar4: '',
         avatar5: '',
         avatar6: '',
-        rol: 'Director General Voltway | Director General INA | Directora de Latin America at Frost & Sullivan'
+        rol: 'Ministro Consejero de la Unión Europea | Director General Voltway | Director General INA | Directora de Latin America at Frost & Sullivan | Moderador'
       },
       {
         id: 1,
@@ -50,14 +50,14 @@ const programITM = {
         hour: '12:00 hrs',
         duration: '45 min',
         event: 'Colaboración público privada para el éxito de la electromovilidad',
-        name: 'Ramón Alfaro | Marco Cosío | Pola Grijalva',
+        name: 'Ramón Alfaro | Marco Cosío | Pola Grijalva | Esaú Garza',
         avatar: '/foro-electromovilidad/speakers/RamonAlfaro.webp',
         avatar2: '/foro-electromovilidad/speakers/MarcoCosio.webp',
         avatar3: '/foro-electromovilidad/speakers/PaolaGrijalva.webp',
         avatar4: '',
         avatar5: '',
         avatar6: '',
-        rol: 'Secretario de Desarrollo Económico Sustentable de Guanajuato | Vicepresidente Smart Infrastructure Siemens México Centroamérica y el Caribe | CEO World trade & Investmente Group'
+        rol: 'Secretario de Desarrollo Económico Sustentable de Guanajuato | Vicepresidente Smart Infrastructure Siemens México Centroamérica y el Caribe | CEO World trade & Investmente Group | Moderador'
       },
       {
         id: 1,
@@ -65,14 +65,14 @@ const programITM = {
         hour: '13:00 hrs',
         duration: '45 min',
         event: 'Fabricación de semiconductores en el contexto internacional',
-        name: 'Esaú Garza |  Jorge Peydro Aznar | Takao Nakahata',
+        name: 'Esaú Garza | Takao Nakahata | Paola Grijalva | Lorena Islas ',
         avatar: '/foro-electromovilidad/speakers/EsauGarza.webp',
         avatar2: '/foro-electromovilidad/speakers/JorgeAznar.webp',
         avatar3: '/foro-electromovilidad/speakers/TakaoNakahata.webp',
         avatar4: '',
         avatar5: '',
         avatar6: '',
-        rol: 'Director General de Alternativas y Soluciones Múltiples del Sureste (ASMS)| Ministro Consejero de la Unión Europea | Director General JETRO'
+        rol: 'CEO ASMS |  Director General JETRO | Precidenta del Consejo de Administración World Trade & Investment Group | Moderador'
       },
       {
         id: 0,
@@ -80,14 +80,14 @@ const programITM = {
         hour: '14:00 hrs',
         duration: '45 min',
         event: 'Hacia dónde va la electromovilidad en el mundo.',
-        name: 'José Zozaya | Lorena Isla | Gautier Mignot',
+        name: ' Osvaldo Belmont | Lorena Islas | Esaú Garza',
         avatar: '',
         avatar2: '/foro-electromovilidad/speakers/JoseGuillermo.webp',
         avatar3: '/foro-electromovilidad/speakers/LorenaIslas.webp',
         avatar4: '/foro-electromovilidad/speakers/GautierMignot.webp',
         avatar5: '',
         avatar6: '',
-        rol: 'Presidente Ejecutivo de la Industria Automotriz (AMIA) | Directora de Latin America at Frost & Sullivan | Embajador Consejero de la Unión Europea en México'
+        rol: 'Presidente Ejecutivo de la Industria Automotriz (AMIA) | Directora de Latin America at Frost & Sullivan | Moderador'
       }
       // {
       //   id: 0,
