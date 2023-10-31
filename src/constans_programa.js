@@ -82,7 +82,7 @@ const programITM = {
         duration: '45 min',
         event: 'Hacia dónde va la electromovilidad en el mundo.',
         name: ' Osvaldo Belmont | Lorena Islas | Esaú Garza',
-        avatar: 'foro-electromovilidad/speakers/LorenaIslas.webp',
+        avatar: '/foro-electromovilidad/speakers/LorenaIslas.webp',
         avatar1: '',
         avatar2: '',
         avatar3: '',
