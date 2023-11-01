@@ -11,6 +11,7 @@ import { DetailSpeaker } from './DetailSpeaker'
 import { Program } from './Program'
 import { Menu } from './Menu'
 import './Register.css'
+import { GalleryPage } from './Gallery/GalleryPage'
 
 const ReCAPTCHA = lazy(() => import('react-google-recaptcha'))
 
@@ -170,6 +171,7 @@ export function Register () {
           onHide={() => setModalShow(false)}
           speaker={detailSpeaker}
         />
+        <GalleryPage />
         <h1 id='registro' className='mt-5 text-light'>Contáctanos</h1>
         <Form className='mt-5' id='form-newsletter' onSubmit={handleSubmit}>
           <Row>
