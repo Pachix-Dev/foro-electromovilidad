@@ -105,7 +105,7 @@ export function Register () {
       <div className='vh-100'>
         <video className='bg-electromovilidad' autoPlay muted loop src='/foro-electromovilidad/bgElectromovilidad.webm' />
         <Container className='pt-5 mb-3 electromovilidad-text'>
-          <center><h1 className='fw-bold pb-4'>Foro de Electromovilidad 2023</h1></center>
+          <center><h1 className='fw-bold pb-4'>Foro de Electromovilidad</h1></center>
           <Row>
             <Col className='py-4'>
               <h2 className='mt-1'>¡El foro más importante de la industria en Guanajuato!</h2>
