@@ -12,7 +12,7 @@ import { Container, Pagination } from 'react-bootstrap'
 import './GalleryPage.css'
 
 export function GalleryYear ({ gallery }) {
-    const itemsPerPage = 14
+    const itemsPerPage = 6
 
     const [activePage, setActivePage] = useState(1)
     const totalPages = Math.ceil(gallery?.length / itemsPerPage)
