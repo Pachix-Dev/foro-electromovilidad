@@ -1,4 +1,3 @@
-
 const gallery2023 = [
   '/foro-electromovilidad/gallery/foro_electromovilidad_1.webp',
   '/foro-electromovilidad/gallery/foro_electromovilidad_2.webp',
