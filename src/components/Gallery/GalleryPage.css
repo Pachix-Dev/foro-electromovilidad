@@ -49,7 +49,7 @@
 
 @media (width < 940px) {
     .lg-react-element{
-        column-count: 3;
+        column-count: 4;
     }
 }
 @media (width < 425px) {
